@@ -1,4 +1,4 @@
-# [Peanutt42.github.io](https://github.com/Peanutt42/Peanutt42.github.io)
+# [Peanutt42.github.io](https://peanutt42.github.io/)
 
 
 Personal portfolio website
