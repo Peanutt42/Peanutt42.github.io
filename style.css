@@ -1,0 +1,62 @@
+body {
+	background-color: #111111;
+	color: #EEEEEE;
+	width: fit-content;
+	padding: 1rem;
+	margin: 0 auto;
+}
+.profile-pic {
+	border-radius: 100%;
+}
+.profile {
+	text-align: center;
+	font-size: large;
+	display: flex;
+	gap: 1rem;
+	align-items: center;
+	width: fit-content;
+	background-color: #222222;
+	padding: 0.5rem;
+	border-radius: 1rem;
+	text-decoration: none;
+	color: #EEEEEE;
+}
+.projects {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	max-width: fit-content;
+	width: fit-content;
+	align-items: center;
+	gap: 1.5rem;
+	padding: 0;
+}
+.project {
+	background-color: #222222;
+	border-radius: 1rem;
+	padding-left: 1rem;
+	padding-right: 1rem;
+	padding-bottom: 1rem;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	gap: 1rem;
+	width: fit-content;
+	text-decoration: none;
+	color: #EEEEEE;
+}
+.project-name {
+	font-size: xx-large;
+	margin-bottom: 0;
+}
+.project-description {
+	font-size: large;
+	color: #CCCCCC;
+	margin: 0;
+}
+.rounded-image {
+	border-radius: 0.5rem;
+	width: 100%;
+	max-width: 800px;
+}
