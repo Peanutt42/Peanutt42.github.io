@@ -38,9 +38,9 @@
 					</h2>
 					<img src="ProjectTracker - Icon.svg" width="100rem" />
 					<img
-					src="ProjectTracker - Screenshot.png"
-					class="rounded-image"
-					width="500px"
+						src="ProjectTracker - Screenshot.png"
+						class="rounded-image"
+						width="500px"
 					/>
 				</a>
 				<a
@@ -62,17 +62,38 @@
 						width="500px"
 					/>
 				</a>
-				<div
-					class="project"
-				>
+				<div class="project">
 					<h2 class="project-name">Ardemu</h2>
 					<h2 class="project-description">Toy RISC CPU emulator</h2>
-					<div style="display: flex; justify-content: center; gap: 1rem; text-align: center;">
-						<a href="https://www.github.com/Peanutt42/ardemu" class="link_button" style="text-align: center; display: flex; flex-direction: row; justify-content: center; gap: 1rem;">
-							<img src="github-mark-white.svg" width="20px" height="20px">
-							<div style="padding: 0;">View Source</div>
+					<div
+						style="
+							display: flex;
+							justify-content: center;
+							gap: 1rem;
+							text-align: center;
+						"
+					>
+						<a
+							href="https://www.github.com/Peanutt42/ardemu"
+							class="link_button"
+							style="
+								text-align: center;
+								display: flex;
+								flex-direction: row;
+								justify-content: center;
+								gap: 1rem;
+							"
+						>
+							<img
+								src="github-mark-white.svg"
+								width="20px"
+								height="20px"
+							/>
+							<div style="padding: 0">View Source</div>
 						</a>
-						<a href="/ardemu_web/" class="link_button">Run in browser</a>
+						<a href="/ardemu_web/" class="link_button"
+							>Run in browser</a
+						>
 					</div>
 					<img
 						src="Ardemu - Screenshot.png"
@@ -102,11 +123,17 @@
 					<h2 class="project-description">
 						Double Pendulumn physics simulation
 					</h2>
-					<img
-						src="DoublePendulum - Screenshot.png"
+					<video
 						class="rounded-image"
-						width="500px"
-					/>
+						width="800px"
+						height="800px"
+						muted
+						onmouseover="this.play()"
+						onmouseout="this.load()"
+						poster="DoublePendulum - Screenshot.png"
+					>
+						<source src="Double Pendulum-Demo.mp4" type="video/mp4">
+					</video>
 				</a>
 				<a
 					href="https://www.github.com/Peanutt42/fractal"
@@ -130,11 +157,17 @@
 					<h2 class="project-description">
 						Toy sand falling physics simulation
 					</h2>
-					<img
-						src="SandSim - Screenshot.png"
+					<video
 						class="rounded-image"
-						width="500px"
-					/>
+						width="800px"
+						height="800px"
+						muted
+						onmouseover="this.play()"
+						onmouseout="this.load()"
+						poster="SandSim - Screenshot.png"
+					>
+						<source src="SandSim - Demo.mp4" type="video/mp4">
+					</video>
 				</a>
 			</ul>
 		</main>
