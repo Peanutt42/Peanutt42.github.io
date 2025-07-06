@@ -1,0 +1,7 @@
+var searchData=
+[
+  ['scopedaccess_223',['ScopedAccess',['../structMutexGuard_1_1ScopedAccess.html#aa82ee94aeb083ad747ccd15ac27ab159',1,'MutexGuard::ScopedAccess::ScopedAccess(T &amp;value, std::mutex &amp;mutex)'],['../structMutexGuard_1_1ScopedAccess.html#adb874f27e9e7537a69102e2f4199b132',1,'MutexGuard::ScopedAccess::ScopedAccess(ScopedAccess &amp;&amp;)=default'],['../structMutexGuard_1_1ScopedAccess.html#a45f0a254763ea5a2f21af4dd6749ab8f',1,'MutexGuard::ScopedAccess::ScopedAccess(const ScopedAccess &amp;)=delete']]],
+  ['set_5flast_5fcamera_5fprofiling_5fframe_5fformatted_224',['set_last_camera_profiling_frame_formatted',['../Profiling_8hpp.html#ad302a2ddf2f567afb5be86a771c6eedf',1,'set_last_camera_profiling_frame_formatted(std::string &amp;&amp;formatted):&#160;Profiling.cpp'],['../Profiling_8cpp.html#ad302a2ddf2f567afb5be86a771c6eedf',1,'set_last_camera_profiling_frame_formatted(std::string &amp;&amp;formatted):&#160;Profiling.cpp']]],
+  ['set_5flast_5fdepth_5fprofiling_5fframe_5fformatted_225',['set_last_depth_profiling_frame_formatted',['../Profiling_8hpp.html#a0394419b8e337f8ac13c1a4e1fbfc610',1,'set_last_depth_profiling_frame_formatted(std::string &amp;&amp;formatted):&#160;Profiling.cpp'],['../Profiling_8cpp.html#a0394419b8e337f8ac13c1a4e1fbfc610',1,'set_last_depth_profiling_frame_formatted(std::string &amp;&amp;formatted):&#160;Profiling.cpp']]],
+  ['start_5fscope_226',['start_scope',['../classProfilingFrame.html#aa1732043bed9cbf7be52a80a8719eebb',1,'ProfilingFrame']]]
+];
