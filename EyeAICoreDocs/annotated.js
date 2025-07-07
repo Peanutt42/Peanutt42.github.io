@@ -1,4 +1,4 @@
-var annotated_dup =
+var annotated =
 [
     [ "AsymmetricQuantizationError", "structAsymmetricQuantizationError.html", null ],
     [ "CombinedError", "structCombinedError.html", "structCombinedError" ],
