@@ -25,7 +25,9 @@
 var NAVTREE =
 [
   [ "EyeAICore", "index.html", [
-    [ "Generating EyeAICore docs using doxygen", "index.html#autotoc_md1", null ],
+    [ "Building EyeAICore", "index.html#autotoc_md1", null ],
+    [ "Run EyeAICore Tests", "index.html#autotoc_md2", null ],
+    [ "Generating EyeAICore docs using doxygen", "index.html#autotoc_md3", null ],
     [ "C++ EyeAICore API", "usergroup0.html", [
       [ "Classes", "annotated.html", "annotated" ],
       [ "Files", "files.html", "files" ]

@@ -2,8 +2,8 @@ var classMutexGuard =
 [
     [ "ConstScopedAccess", "structMutexGuard_1_1ConstScopedAccess.html", "structMutexGuard_1_1ConstScopedAccess" ],
     [ "ScopedAccess", "structMutexGuard_1_1ScopedAccess.html", "structMutexGuard_1_1ScopedAccess" ],
-    [ "MutexGuard", "classMutexGuard.html#a3d0c431a90eaaa1b120c6bbea51fded0", null ],
-    [ "MutexGuard", "classMutexGuard.html#a8084fccfe7b1109663ab4747da729330", null ],
+    [ "MutexGuard", "classMutexGuard.html#abc967ab126ceee9dc8ba616b30809eae", null ],
+    [ "MutexGuard", "classMutexGuard.html#a33d05e7a52a4e0be96f67e3e610b4435", null ],
     [ "~MutexGuard", "classMutexGuard.html#a9995eca0de182a0604176d0db0d85bd7", null ],
     [ "MutexGuard", "classMutexGuard.html#ac88499d8aa975d4e6f685c051fe3d535", null ],
     [ "MutexGuard", "classMutexGuard.html#a46a6e8b2839734f0162c4e1713140899", null ],

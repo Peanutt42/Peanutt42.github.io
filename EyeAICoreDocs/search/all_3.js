@@ -5,7 +5,7 @@ var searchData=
   ['depthcolorarraysizemismatch_18',['DepthColorArraySizeMismatch',['../structDepthColorArraySizeMismatch.html',1,'']]],
   ['depthcolormap_2ecpp_19',['DepthColormap.cpp',['../DepthColormap_8cpp.html',1,'']]],
   ['depthcolormap_2ehpp_20',['DepthColormap.hpp',['../DepthColormap_8hpp.html',1,'']]],
-  ['depthmodel_21',['DepthModel',['../classDepthModel.html',1,'DepthModel'],['../classDepthModel.html#a71883520d55fe45cff60f60ed1978ce7',1,'DepthModel::DepthModel()']]],
+  ['depthmodel_21',['DepthModel',['../classDepthModel.html',1,'DepthModel'],['../classDepthModel.html#a71883520d55fe45cff60f60ed1978ce7',1,'DepthModel::DepthModel(std::unique_ptr&lt; TfLiteRuntime &gt; &amp;&amp;runtime)'],['../classDepthModel.html#a94662211166762b0dff23d0522075bb0',1,'DepthModel::DepthModel(DepthModel &amp;&amp;)=default']]],
   ['depthmodel_2ecpp_22',['DepthModel.cpp',['../DepthModel_8cpp.html',1,'']]],
   ['depthmodel_2ehpp_23',['DepthModel.hpp',['../DepthModel_8hpp.html',1,'']]],
   ['duration_24',['duration',['../structProfileScopeRecord.html#a86e53354a8d7bd55bf17d8db09e2077b',1,'ProfileScopeRecord']]]

@@ -211,12 +211,21 @@ $(document).ready(function(){initNavTree('index.html',''); initResizable(); });
 <div class="contents">
 <div class="textblock"><p><a class="anchor" id="md_README"></a> the core implementation of EyeAI in crossplatform c++</p>
 <h1><a class="anchor" id="autotoc_md1"></a>
+Building EyeAICore</h1>
+<div class="fragment"><div class="line">cmake --preset=release</div>
+<div class="line">cmake --build --preset=release</div>
+</div><!-- fragment --><h1><a class="anchor" id="autotoc_md2"></a>
+Run EyeAICore Tests</h1>
+<div class="fragment"><div class="line">cmake --preset=debug</div>
+<div class="line">cmake --build --preset=debug</div>
+<div class="line">ctest --preset=default</div>
+</div><!-- fragment --><h1><a class="anchor" id="autotoc_md3"></a>
 Generating EyeAICore docs using doxygen</h1>
 <p>install doxygen (here: using linux):</p>
 <div class="fragment"><div class="line">sudo apt install doxygen graphviz</div>
 </div><!-- fragment --><p>generate docs:</p>
-<div class="fragment"><div class="line">cmake -B build -DGENERATE_DOCS=ON</div>
-<div class="line">cmake --build build --target EyeAICoreDoxygenDocs</div>
+<div class="fragment"><div class="line">cmake --preset=debug</div>
+<div class="line">cmake --build --preset=generate_docs</div>
 </div><!-- fragment --><p>the generated doxygen docs will be in <code>build/docs</code> </p>
 </div></div><!-- PageDoc -->
 </div><!-- contents -->

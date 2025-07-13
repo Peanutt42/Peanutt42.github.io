@@ -225,11 +225,11 @@ Classes</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:a3d0c431a90eaaa1b120c6bbea51fded0"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMutexGuard.html#a3d0c431a90eaaa1b120c6bbea51fded0">MutexGuard</a> (T &amp;&amp;value)</td></tr>
-<tr class="separator:a3d0c431a90eaaa1b120c6bbea51fded0"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8084fccfe7b1109663ab4747da729330"><td class="memTemplParams" colspan="2">template&lt;typename... Args&gt; </td></tr>
-<tr class="memitem:a8084fccfe7b1109663ab4747da729330"><td class="memTemplItemLeft" align="right" valign="top">&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="classMutexGuard.html#a8084fccfe7b1109663ab4747da729330">MutexGuard</a> (Args &amp;&amp;... args)</td></tr>
-<tr class="separator:a8084fccfe7b1109663ab4747da729330"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abc967ab126ceee9dc8ba616b30809eae"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMutexGuard.html#abc967ab126ceee9dc8ba616b30809eae">MutexGuard</a> (T &amp;&amp;value) noexcept</td></tr>
+<tr class="separator:abc967ab126ceee9dc8ba616b30809eae"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a33d05e7a52a4e0be96f67e3e610b4435"><td class="memTemplParams" colspan="2">template&lt;typename... Args&gt; </td></tr>
+<tr class="memitem:a33d05e7a52a4e0be96f67e3e610b4435"><td class="memTemplItemLeft" align="right" valign="top">&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="classMutexGuard.html#a33d05e7a52a4e0be96f67e3e610b4435">MutexGuard</a> (Args &amp;&amp;... args) noexcept</td></tr>
+<tr class="separator:a33d05e7a52a4e0be96f67e3e610b4435"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9995eca0de182a0604176d0db0d85bd7"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMutexGuard.html#a9995eca0de182a0604176d0db0d85bd7">~MutexGuard</a> ()=default</td></tr>
 <tr class="separator:a9995eca0de182a0604176d0db0d85bd7"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac88499d8aa975d4e6f685c051fe3d535"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMutexGuard.html#ac88499d8aa975d4e6f685c051fe3d535">MutexGuard</a> (<a class="el" href="classMutexGuard.html">MutexGuard</a> &amp;&amp;)=default</td></tr>
@@ -251,8 +251,8 @@ class MutexGuard&lt; T &gt;</h3>
 
 <p>Helper class that encapsulates T value and protects every access to it using a mutex </p>
 </div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
-<a id="a3d0c431a90eaaa1b120c6bbea51fded0"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a3d0c431a90eaaa1b120c6bbea51fded0">&#9670;&nbsp;</a></span>MutexGuard() <span class="overload">[1/4]</span></h2>
+<a id="abc967ab126ceee9dc8ba616b30809eae"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#abc967ab126ceee9dc8ba616b30809eae">&#9670;&nbsp;</a></span>MutexGuard() <span class="overload">[1/4]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -272,15 +272,15 @@ template&lt;typename T &gt; </div>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">explicit</span></span>  </td>
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">explicit</span><span class="mlabel">noexcept</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
 
 </div>
 </div>
-<a id="a8084fccfe7b1109663ab4747da729330"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a8084fccfe7b1109663ab4747da729330">&#9670;&nbsp;</a></span>MutexGuard() <span class="overload">[2/4]</span></h2>
+<a id="a33d05e7a52a4e0be96f67e3e610b4435"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a33d05e7a52a4e0be96f67e3e610b4435">&#9670;&nbsp;</a></span>MutexGuard() <span class="overload">[2/4]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -302,7 +302,7 @@ template&lt;typename... Args&gt; </div>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">explicit</span></span>  </td>
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">explicit</span><span class="mlabel">noexcept</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
