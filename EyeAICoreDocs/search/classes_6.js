@@ -1,6 +1,6 @@
 var searchData=
 [
-  ['profilescope_144',['ProfileScope',['../structProfileScope.html',1,'']]],
-  ['profilescoperecord_145',['ProfileScopeRecord',['../structProfileScopeRecord.html',1,'']]],
-  ['profilingframe_146',['ProfilingFrame',['../classProfilingFrame.html',1,'']]]
+  ['operator_164',['Operator',['../classOperator.html',1,'']]],
+  ['operatorerror_165',['OperatorError',['../structOperatorError.html',1,'']]],
+  ['overloads_166',['Overloads',['../structOverloads.html',1,'']]]
 ];

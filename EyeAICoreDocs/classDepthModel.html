@@ -228,8 +228,18 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a94662211166762b0dff23d0522075bb0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac5e6f5e19c1fbd706ef4e6e42eb18cc5"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classDepthModel.html">DepthModel</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classDepthModel.html#ac5e6f5e19c1fbd706ef4e6e42eb18cc5">operator=</a> (<a class="el" href="classDepthModel.html">DepthModel</a> &amp;&amp;)=default</td></tr>
 <tr class="separator:ac5e6f5e19c1fbd706ef4e6e42eb18cc5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad0669158254dc7bd5111230c80dd9711"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classDepthModel.html#ad0669158254dc7bd5111230c80dd9711">DepthModel</a> (const <a class="el" href="classDepthModel.html">DepthModel</a> &amp;)=delete</td></tr>
+<tr class="separator:ad0669158254dc7bd5111230c80dd9711"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a14fcd7a096adf528e6793479749b58f0"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classDepthModel.html">DepthModel</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classDepthModel.html#a14fcd7a096adf528e6793479749b58f0">operator=</a> (const <a class="el" href="classDepthModel.html">DepthModel</a> &amp;)=delete</td></tr>
+<tr class="separator:a14fcd7a096adf528e6793479749b58f0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af0d7dbb36b7293d9826954f13b8f04d1"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classDepthModel.html#af0d7dbb36b7293d9826954f13b8f04d1">~DepthModel</a> ()=default</td></tr>
+<tr class="separator:af0d7dbb36b7293d9826954f13b8f04d1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa7cbd29e2215413128e45141201ad52b"><td class="memItemLeft" align="right" valign="top">std::optional&lt; TfLiteRunInferenceError &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classDepthModel.html#aa7cbd29e2215413128e45141201ad52b">run</a> (std::span&lt; float &gt; input, std::span&lt; float &gt; output)</td></tr>
 <tr class="separator:aa7cbd29e2215413128e45141201ad52b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af6e4e3633e5c88b057350ca6d7fed150"><td class="memItemLeft" align="right" valign="top">std::span&lt; const int &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classDepthModel.html#af6e4e3633e5c88b057350ca6d7fed150">get_input_shape</a> () const</td></tr>
+<tr class="separator:af6e4e3633e5c88b057350ca6d7fed150"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4f918a9a0f34ea8b4b15029040a629dc"><td class="memItemLeft" align="right" valign="top">std::span&lt; const int &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classDepthModel.html#a4f918a9a0f34ea8b4b15029040a629dc">get_output_shape</a> () const</td></tr>
+<tr class="separator:a4f918a9a0f34ea8b4b15029040a629dc"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-static-methods"></a>
 Static Public Member Functions</h2></td></tr>
@@ -240,7 +250,7 @@ Static Public Member Functions</h2></td></tr>
 <div class="textblock"><p>A utility class for running depth estimation models like MiDaS. </p>
 </div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="a71883520d55fe45cff60f60ed1978ce7"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a71883520d55fe45cff60f60ed1978ce7">&#9670;&nbsp;</a></span>DepthModel() <span class="overload">[1/2]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a71883520d55fe45cff60f60ed1978ce7">&#9670;&nbsp;</a></span>DepthModel() <span class="overload">[1/3]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -268,7 +278,7 @@ Static Public Member Functions</h2></td></tr>
 </div>
 </div>
 <a id="a94662211166762b0dff23d0522075bb0"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a94662211166762b0dff23d0522075bb0">&#9670;&nbsp;</a></span>DepthModel() <span class="overload">[2/2]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a94662211166762b0dff23d0522075bb0">&#9670;&nbsp;</a></span>DepthModel() <span class="overload">[2/3]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -280,6 +290,57 @@ Static Public Member Functions</h2></td></tr>
           <td class="memname">DepthModel::DepthModel </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="classDepthModel.html">DepthModel</a> &amp;&amp;&#160;</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">default</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ad0669158254dc7bd5111230c80dd9711"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad0669158254dc7bd5111230c80dd9711">&#9670;&nbsp;</a></span>DepthModel() <span class="overload">[3/3]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">DepthModel::DepthModel </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="classDepthModel.html">DepthModel</a> &amp;&#160;</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">delete</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="af0d7dbb36b7293d9826954f13b8f04d1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af0d7dbb36b7293d9826954f13b8f04d1">&#9670;&nbsp;</a></span>~DepthModel()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">DepthModel::~DepthModel </td>
+          <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
         </tr>
@@ -348,8 +409,68 @@ Static Public Member Functions</h2></td></tr>
 
 </div>
 </div>
+<a id="af6e4e3633e5c88b057350ca6d7fed150"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af6e4e3633e5c88b057350ca6d7fed150">&#9670;&nbsp;</a></span>get_input_shape()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::span&lt; const int &gt; DepthModel::get_input_shape </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a4f918a9a0f34ea8b4b15029040a629dc"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4f918a9a0f34ea8b4b15029040a629dc">&#9670;&nbsp;</a></span>get_output_shape()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::span&lt; const int &gt; DepthModel::get_output_shape </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a14fcd7a096adf528e6793479749b58f0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a14fcd7a096adf528e6793479749b58f0">&#9670;&nbsp;</a></span>operator=() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classDepthModel.html">DepthModel</a>&amp; DepthModel::operator= </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="classDepthModel.html">DepthModel</a> &amp;&#160;</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">delete</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="ac5e6f5e19c1fbd706ef4e6e42eb18cc5"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ac5e6f5e19c1fbd706ef4e6e42eb18cc5">&#9670;&nbsp;</a></span>operator=()</h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ac5e6f5e19c1fbd706ef4e6e42eb18cc5">&#9670;&nbsp;</a></span>operator=() <span class="overload">[2/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">

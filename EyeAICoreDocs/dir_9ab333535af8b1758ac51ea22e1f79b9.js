@@ -9,6 +9,11 @@ var dir_9ab333535af8b1758ac51ea22e1f79b9 =
       [ "OperatorError", "structOperatorError.html", "structOperatorError" ],
       [ "Operator", "classOperator.html", "classOperator" ],
       [ "MinMaxOperator", "classMinMaxOperator.html", "classMinMaxOperator" ],
-      [ "RgbNormalizeOperator", "classRgbNormalizeOperator.html", "classRgbNormalizeOperator" ]
+      [ "RgbNormalizeOperator", "classRgbNormalizeOperator.html", "classRgbNormalizeOperator" ],
+      [ "RgbNormalizeOperatorYolo", "classRgbNormalizeOperatorYolo.html", "classRgbNormalizeOperatorYolo" ]
+    ] ],
+    [ "YoloModel.hpp", "YoloModel_8hpp.html", [
+      [ "YoloModel", "classYoloModel.html", "classYoloModel" ],
+      [ "BoundingBox", "structYoloModel_1_1BoundingBox.html", "structYoloModel_1_1BoundingBox" ]
     ] ]
 ];

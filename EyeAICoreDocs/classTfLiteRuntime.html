@@ -232,6 +232,10 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:ab541501a8b6f520c20b8e939aa7e63fd"><td class="memItemLeft" align="right" valign="top">std::optional&lt; TfLiteRunInferenceError &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classTfLiteRuntime.html#ab541501a8b6f520c20b8e939aa7e63fd">run_inference</a> (std::span&lt; float &gt; input, std::span&lt; float &gt; output)</td></tr>
 <tr class="memdesc:ab541501a8b6f520c20b8e939aa7e63fd"><td class="mdescLeft">&#160;</td><td class="mdescRight">Run inference on the model, make sure input and output have the right amount of elements.  <a href="classTfLiteRuntime.html#ab541501a8b6f520c20b8e939aa7e63fd">More...</a><br /></td></tr>
 <tr class="separator:ab541501a8b6f520c20b8e939aa7e63fd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a19dae7f72e3089cd277381d4eb755acf"><td class="memItemLeft" align="right" valign="top">std::span&lt; const int &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classTfLiteRuntime.html#a19dae7f72e3089cd277381d4eb755acf">get_input_shape</a> () const</td></tr>
+<tr class="separator:a19dae7f72e3089cd277381d4eb755acf"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa7e5920c553b118bfbab3d8883d5f2d5"><td class="memItemLeft" align="right" valign="top">std::span&lt; const int &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classTfLiteRuntime.html#aa7e5920c553b118bfbab3d8883d5f2d5">get_output_shape</a> () const</td></tr>
+<tr class="separator:aa7e5920c553b118bfbab3d8883d5f2d5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8281df3787cf7f488b0c435b0e1f4307"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classTfLiteRuntime.html#a8281df3787cf7f488b0c435b0e1f4307">TfLiteRuntime</a> (<a class="el" href="classTfLiteRuntime.html">TfLiteRuntime</a> &amp;&amp;)=delete</td></tr>
 <tr class="separator:a8281df3787cf7f488b0c435b0e1f4307"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a0fb9902a1fa1a30ce0ece9fa5e193230"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classTfLiteRuntime.html#a0fb9902a1fa1a30ce0ece9fa5e193230">TfLiteRuntime</a> (const <a class="el" href="classTfLiteRuntime.html">TfLiteRuntime</a> &amp;)=delete</td></tr>
@@ -398,6 +402,40 @@ Static Public Member Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 <p>Create a <a class="el" href="classTfLiteRuntime.html" title="Helper class that wraps the tflite c api.">TfLiteRuntime</a> instance, see <a class="el" href="classTfLiteRuntimeBuilder.html" title="Helper class to reduce boilerplate code when creating a TfLiteRuntime.">TfLiteRuntimeBuilder</a> for a builder pattern. </p>
+
+</div>
+</div>
+<a id="a19dae7f72e3089cd277381d4eb755acf"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a19dae7f72e3089cd277381d4eb755acf">&#9670;&nbsp;</a></span>get_input_shape()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::span&lt; const int &gt; TfLiteRuntime::get_input_shape </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="aa7e5920c553b118bfbab3d8883d5f2d5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa7e5920c553b118bfbab3d8883d5f2d5">&#9670;&nbsp;</a></span>get_output_shape()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::span&lt; const int &gt; TfLiteRuntime::get_output_shape </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
 
 </div>
 </div>

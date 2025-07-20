@@ -1,5 +1,6 @@
 var searchData=
 [
-  ['blue_5fchannel_5ffrom_5fargb_5fcolor_181',['blue_channel_from_argb_color',['../ImageUtils_8hpp.html#ae07d98186a26b03954c528d78852be64',1,'ImageUtils.hpp']]],
-  ['build_182',['build',['../classTfLiteRuntimeBuilder.html#a4c0214dcecd3e7db611cd463a77cac75',1,'TfLiteRuntimeBuilder']]]
+  ['bestbox_208',['bestBox',['../classYoloModel.html#a7e6a8ed64d5d4aedf40cba070e34440c',1,'YoloModel']]],
+  ['blue_5fchannel_5ffrom_5fargb_5fcolor_209',['blue_channel_from_argb_color',['../ImageUtils_8hpp.html#ae07d98186a26b03954c528d78852be64',1,'ImageUtils.hpp']]],
+  ['build_210',['build',['../classTfLiteRuntimeBuilder.html#a4c0214dcecd3e7db611cd463a77cac75',1,'TfLiteRuntimeBuilder']]]
 ];

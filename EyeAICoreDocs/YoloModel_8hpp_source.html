@@ -1,0 +1,308 @@
+<!-- HTML header for doxygen 1.9.1-->
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+	<head>
+		<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=9" />
+		<meta name="generator" content="Doxygen 1.9.1" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<title>EyeAICore: include/EyeAICore/YoloModel.hpp Source File</title>
+		<link href="tabs.css" rel="stylesheet" type="text/css" />
+		<script type="text/javascript" src="jquery.js"></script>
+		<script type="text/javascript" src="dynsections.js"></script>
+		<link href="navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="resize.js"></script>
+<script type="text/javascript" src="navtreedata.js"></script>
+<script type="text/javascript" src="navtree.js"></script>
+ <link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+		<link href="doxygen.css" rel="stylesheet" type="text/css" />
+		<link href="doxygen-awesome.css" rel="stylesheet" type="text/css"/>
+<link href="doxygen-awesome-sidebar-only.css" rel="stylesheet" type="text/css"/>
+<link href="doxygen-awesome-sidebar-only-darkmode-toggle.css" rel="stylesheet" type="text/css"/>
+<link href="custom.css" rel="stylesheet" type="text/css"/>
+		<!-- ... other metadata & script includes ... -->
+		<!-- extension-dark-mode-toggle -->
+		<script
+			type="text/javascript"
+			src="doxygen-awesome-darkmode-toggle.js"
+		></script>
+		<script type="text/javascript">
+			DoxygenAwesomeDarkModeToggle.init();
+		</script>
+		<!-- extension-copy-button -->
+		<script
+			type="text/javascript"
+			src="doxygen-awesome-fragment-copy-button.js"
+		></script>
+		<script type="text/javascript">
+			DoxygenAwesomeFragmentCopyButton.init();
+		</script>
+		<!-- Makes the search result entries font size larger -->
+		<script type="text/javascript">
+			// This changes the search result font size, as the default is way too small.
+			document.addEventListener("DOMContentLoaded", function () {
+				const observer = new MutationObserver(function (mutations) {
+					const searchIframe = document.querySelector(
+						'iframe[name="MSearchResults"]',
+					);
+					if (searchIframe) {
+						searchIframe.addEventListener("load", function () {
+							const makeFontLarger = (entries) => {
+								for (let i = 0; i < entries.length; i++) {
+									entries[i].style.fontSize = "14.4px";
+									entries[i].style.paddingTop = "3px";
+									entries[i].style.paddingBottom = "3px";
+								}
+							};
+							const searchIframeDoc =
+								searchIframe.contentDocument;
+							makeFontLarger(
+								searchIframeDoc.getElementsByClassName(
+									"SREntry",
+								),
+							);
+							makeFontLarger(
+								searchIframeDoc.getElementsByClassName(
+									"SRScope",
+								),
+							);
+						});
+						observer.disconnect();
+					}
+				});
+				observer.observe(document.body, {
+					childList: true,
+					subtree: true,
+				});
+			});
+		</script>
+	</head>
+	<body>
+		<!-- https://tholman.com/github-corners/ -->
+		<a
+			href="https://github.com/SimplyExo/eye-ai"
+			class="github-corner"
+			aria-label="View source on GitHub"
+			><svg
+				width="80"
+				height="80"
+				viewBox="0 0 250 250"
+				style="
+					fill: #151513;
+					color: #fff;
+					position: absolute;
+					top: 0;
+					border: 0;
+					right: 0;
+				"
+				aria-hidden="true"
+			>
+				<path d="M0,0 L115,115 L130,115 L142,142 L250,250 L250,0 Z" />
+				<path
+					d="M128.3,109.0 C113.8,99.7 119.0,89.6 119.0,89.6 C122.0,82.7 120.5,78.6 120.5,78.6 C119.2,72.0 123.4,76.3 123.4,76.3 C127.3,80.9 125.5,87.3 125.5,87.3 C122.9,97.6 130.6,101.9 134.4,103.2"
+					fill="currentColor"
+					style="transform-origin: 130px 106px"
+					class="octo-arm"
+				/>
+				<path
+					d="M115.0,115.0 C114.9,115.1 118.7,116.5 119.8,115.4 L133.7,101.6 C136.9,99.2 139.9,98.4 142.2,98.6 C133.8,88.0 127.5,74.4 143.8,58.0 C148.5,53.4 154.0,51.2 159.7,51.0 C160.3,49.4 163.2,43.6 171.4,40.1 C171.4,40.1 176.1,42.5 178.8,56.2 C183.1,58.6 187.2,61.8 190.9,65.4 C194.5,69.0 197.7,73.2 200.1,77.6 C213.8,80.2 216.3,84.9 216.3,84.9 C212.7,93.1 206.9,96.0 205.4,96.6 C205.1,102.4 203.0,107.8 198.3,112.5 C181.9,128.9 168.3,122.5 157.7,114.1 C157.9,116.9 156.7,120.9 152.7,124.9 L141.0,136.5 C139.8,137.7 141.6,141.9 141.8,141.8 Z"
+					fill="currentColor"
+					class="octo-body"
+				/></svg></a
+		><style>
+			.github-corner:hover .octo-arm {
+				animation: octocat-wave 560ms ease-in-out;
+			}
+			@keyframes octocat-wave {
+				0%,
+				100% {
+					transform: rotate(0);
+				}
+				20%,
+				60% {
+					transform: rotate(-25deg);
+				}
+				40%,
+				80% {
+					transform: rotate(10deg);
+				}
+			}
+			@media (max-width: 500px) {
+				.github-corner:hover .octo-arm {
+					animation: none;
+				}
+				.github-corner .octo-arm {
+					animation: octocat-wave 560ms ease-in-out;
+				}
+			}
+		</style>
+		<div id="top">
+			<!-- do not remove this div, it is closed by doxygen! -->
+			<div id="titlearea">
+				<table cellspacing="0" cellpadding="0">
+					<tbody>
+						<tr style="height: 56px">
+							<td id="projectalign" style="padding-left: 0.5em">
+								<div id="projectname">
+									EyeAICore
+								</div>
+							</td>
+						</tr>
+					</tbody>
+				</table>
+			</div>
+			<!-- end header part -->
+		</div>
+	</body>
+</html>
+<!-- Generated by Doxygen 1.9.1 -->
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
+var searchBox = new SearchBox("searchBox", "search",false,'Search','.html');
+/* @license-end */
+</script>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
+$(function() {
+  initMenu('',true,false,'search.php','Search');
+  $(document).ready(function() { init_search(); });
+});
+/* @license-end */</script>
+<div id="main-nav"></div>
+</div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
+$(document).ready(function(){initNavTree('YoloModel_8hpp_source.html',''); initResizable(); });
+/* @license-end */
+</script>
+<div id="doc-content">
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+<div class="header">
+  <div class="headertitle">
+<div class="title">YoloModel.hpp</div>  </div>
+</div><!--header-->
+<div class="contents">
+<a href="YoloModel_8hpp.html">Go to the documentation of this file.</a><div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;<span class="preprocessor">#pragma once</span></div>
+<div class="line"><a name="l00002"></a><span class="lineno">    2</span>&#160; </div>
+<div class="line"><a name="l00003"></a><span class="lineno">    3</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="Operators_8hpp.html">EyeAICore/Operators.hpp</a>&quot;</span></div>
+<div class="line"><a name="l00004"></a><span class="lineno">    4</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="TfLiteRuntime_8hpp.html">EyeAICore/tflite/TfLiteRuntime.hpp</a>&quot;</span></div>
+<div class="line"><a name="l00005"></a><span class="lineno">    5</span>&#160; </div>
+<div class="line"><a name="l00006"></a><span class="lineno"><a class="line" href="classYoloModel.html">    6</a></span>&#160;<span class="keyword">class </span><a class="code" href="classYoloModel.html">YoloModel</a> {</div>
+<div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;  <span class="keyword">public</span>:</div>
+<div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160;    <a class="code" href="classYoloModel.html#ac31595e971a025814667a8ded6fa2fcc">YoloModel</a>();</div>
+<div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160; </div>
+<div class="line"><a name="l00010"></a><span class="lineno"><a class="line" href="structYoloModel_1_1BoundingBox.html">   10</a></span>&#160;    <span class="keyword">struct </span><a class="code" href="structYoloModel_1_1BoundingBox.html">BoundingBox</a> {</div>
+<div class="line"><a name="l00011"></a><span class="lineno"><a class="line" href="structYoloModel_1_1BoundingBox.html#afb8be5b22bb16f2d559e7b05fb921aa0">   11</a></span>&#160;        std::string <a class="code" href="structYoloModel_1_1BoundingBox.html#afb8be5b22bb16f2d559e7b05fb921aa0">clsName</a> = <span class="stringliteral">&quot;&quot;</span>;</div>
+<div class="line"><a name="l00012"></a><span class="lineno"><a class="line" href="structYoloModel_1_1BoundingBox.html#a4e91b4555a393e3b7ab33d2b73aa8750">   12</a></span>&#160;        <span class="keywordtype">float</span> <a class="code" href="structYoloModel_1_1BoundingBox.html#a4e91b4555a393e3b7ab33d2b73aa8750">cx</a> = 0; <span class="comment">// 0</span></div>
+<div class="line"><a name="l00013"></a><span class="lineno"><a class="line" href="structYoloModel_1_1BoundingBox.html#a268733fd761be64edc6df68cdebf3f39">   13</a></span>&#160;        <span class="keywordtype">float</span> <a class="code" href="structYoloModel_1_1BoundingBox.html#a268733fd761be64edc6df68cdebf3f39">cy</a> = 0; <span class="comment">// 1</span></div>
+<div class="line"><a name="l00014"></a><span class="lineno"><a class="line" href="structYoloModel_1_1BoundingBox.html#a3472e6b9088de2fb29c7abcb9e6deaa7">   14</a></span>&#160;        <span class="keywordtype">float</span> <a class="code" href="structYoloModel_1_1BoundingBox.html#a3472e6b9088de2fb29c7abcb9e6deaa7">w</a> = 0;</div>
+<div class="line"><a name="l00015"></a><span class="lineno"><a class="line" href="structYoloModel_1_1BoundingBox.html#a299ee0320aca14a972d8661c688f38da">   15</a></span>&#160;        <span class="keywordtype">float</span> <a class="code" href="structYoloModel_1_1BoundingBox.html#a299ee0320aca14a972d8661c688f38da">h</a> = 0;</div>
+<div class="line"><a name="l00016"></a><span class="lineno"><a class="line" href="structYoloModel_1_1BoundingBox.html#a34bfeba4dd53229849655eccdfb6c8a4">   16</a></span>&#160;        <span class="keywordtype">float</span> <a class="code" href="structYoloModel_1_1BoundingBox.html#a34bfeba4dd53229849655eccdfb6c8a4">x1</a> = 0;</div>
+<div class="line"><a name="l00017"></a><span class="lineno"><a class="line" href="structYoloModel_1_1BoundingBox.html#a2753337297d2852c2d3cdf04c15223cd">   17</a></span>&#160;        <span class="keywordtype">float</span> <a class="code" href="structYoloModel_1_1BoundingBox.html#a2753337297d2852c2d3cdf04c15223cd">y1</a> = 0;</div>
+<div class="line"><a name="l00018"></a><span class="lineno"><a class="line" href="structYoloModel_1_1BoundingBox.html#a2325bded1b00bbc92b24aabd693d68b8">   18</a></span>&#160;        <span class="keywordtype">float</span> <a class="code" href="structYoloModel_1_1BoundingBox.html#a2325bded1b00bbc92b24aabd693d68b8">x2</a> = 0;</div>
+<div class="line"><a name="l00019"></a><span class="lineno"><a class="line" href="structYoloModel_1_1BoundingBox.html#ac7effbbf8616283a9375277c346cd7ab">   19</a></span>&#160;        <span class="keywordtype">float</span> <a class="code" href="structYoloModel_1_1BoundingBox.html#ac7effbbf8616283a9375277c346cd7ab">y2</a> = 0;</div>
+<div class="line"><a name="l00020"></a><span class="lineno"><a class="line" href="structYoloModel_1_1BoundingBox.html#a8814693177b8a67f86ac37f663930ced">   20</a></span>&#160;        <span class="keywordtype">int</span> <a class="code" href="structYoloModel_1_1BoundingBox.html#a8814693177b8a67f86ac37f663930ced">cls</a> = 0;</div>
+<div class="line"><a name="l00021"></a><span class="lineno"><a class="line" href="structYoloModel_1_1BoundingBox.html#af193a7cee1de2d2de5412564e3cd2812">   21</a></span>&#160;        <span class="keywordtype">float</span> <a class="code" href="structYoloModel_1_1BoundingBox.html#af193a7cee1de2d2de5412564e3cd2812">cnf</a> = 0;</div>
+<div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;    };</div>
+<div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160; </div>
+<div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;    <span class="comment">// Erstellt das Modell</span></div>
+<div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;    tl::expected&lt;bool, std::string&gt; <a class="code" href="classYoloModel.html#a9c288c4e37baa13e28c7e38df7fdad1f">create</a>(</div>
+<div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;        std::vector&lt;int8_t&gt;&amp;&amp; model_data,</div>
+<div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;        std::vector&lt;std::string&gt; labels,</div>
+<div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;        std::string_view gpu_delegate_serialization_dir,</div>
+<div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;        std::string_view model_token,</div>
+<div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;        <a class="code" href="TfLiteRuntime_8hpp.html#a0f81401a8cd180af6f4eae3afd0858fd">TfLiteLogWarningCallback</a> log_warning_callback,</div>
+<div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;        <a class="code" href="TfLiteRuntime_8hpp.html#ae10cf5db164646559fbb4d9236808f87">TfLiteLogErrorCallback</a> log_error_callback</div>
+<div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;    );</div>
+<div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160; </div>
+<div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;    tl::expected&lt;void, std::string&gt;</div>
+<div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;    <a class="code" href="classYoloModel.html#aea56b6c6444b7751d279927253358ff3">run</a>(std::span&lt;float&gt; input, std::span&lt;float&gt; output);</div>
+<div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160; </div>
+<div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;    std::vector&lt;YoloModel::BoundingBox&gt;</div>
+<div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;    <a class="code" href="classYoloModel.html#a7e6a8ed64d5d4aedf40cba070e34440c">bestBox</a>(std::span&lt;float&gt; array);</div>
+<div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160; </div>
+<div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;    std::span&lt;const int&gt; <a class="code" href="classYoloModel.html#a7a885b2a8e471881cfa9e95d4c4f6f39">get_input_shape</a>();</div>
+<div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160; </div>
+<div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;    std::span&lt;const int&gt; <a class="code" href="classYoloModel.html#a80c29452820163141a0408763756b327">get_output_shape</a>();</div>
+<div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160; </div>
+<div class="line"><a name="l00044"></a><span class="lineno"><a class="line" href="classYoloModel.html#aeff1aa10fbfc1d57418b442605cccc17">   44</a></span>&#160;    <span class="keywordtype">int</span> <a class="code" href="classYoloModel.html#aeff1aa10fbfc1d57418b442605cccc17">num_channel</a>;</div>
+<div class="line"><a name="l00045"></a><span class="lineno"><a class="line" href="classYoloModel.html#aefea6c12d68ebb06b85e45b120d450fe">   45</a></span>&#160;    <span class="keywordtype">int</span> <a class="code" href="classYoloModel.html#aefea6c12d68ebb06b85e45b120d450fe">num_elements</a>;</div>
+<div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160; </div>
+<div class="line"><a name="l00047"></a><span class="lineno">   47</span>&#160;  <span class="keyword">private</span>:</div>
+<div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160;    std::unique_ptr&lt;TfLiteRuntime&gt; runtime;</div>
+<div class="line"><a name="l00049"></a><span class="lineno">   49</span>&#160; </div>
+<div class="line"><a name="l00050"></a><span class="lineno">   50</span>&#160;    std::vector&lt;std::string&gt; labels;</div>
+<div class="line"><a name="l00051"></a><span class="lineno">   51</span>&#160; </div>
+<div class="line"><a name="l00052"></a><span class="lineno">   52</span>&#160;    std::vector&lt;YoloModel::BoundingBox&gt;</div>
+<div class="line"><a name="l00053"></a><span class="lineno">   53</span>&#160;    applyNMS(std::vector&lt;YoloModel::BoundingBox&gt;&amp; boxes);</div>
+<div class="line"><a name="l00054"></a><span class="lineno">   54</span>&#160;    <span class="keywordtype">float</span> calculateIoU(</div>
+<div class="line"><a name="l00055"></a><span class="lineno">   55</span>&#160;        <span class="keyword">const</span> <a class="code" href="structYoloModel_1_1BoundingBox.html">YoloModel::BoundingBox</a>&amp; box1,</div>
+<div class="line"><a name="l00056"></a><span class="lineno">   56</span>&#160;        <span class="keyword">const</span> <a class="code" href="structYoloModel_1_1BoundingBox.html">YoloModel::BoundingBox</a>&amp; box2</div>
+<div class="line"><a name="l00057"></a><span class="lineno">   57</span>&#160;    );</div>
+<div class="line"><a name="l00058"></a><span class="lineno">   58</span>&#160; </div>
+<div class="line"><a name="l00059"></a><span class="lineno">   59</span>&#160;    <span class="keyword">const</span> <span class="keywordtype">float</span> CONFIDENCE_THRESHOLD = 0.5F;</div>
+<div class="line"><a name="l00060"></a><span class="lineno">   60</span>&#160;    <span class="keyword">const</span> <span class="keywordtype">float</span> IOU_THRESHOLD = 0.5F;</div>
+<div class="line"><a name="l00061"></a><span class="lineno">   61</span>&#160;};</div>
+<div class="ttc" id="aOperators_8hpp_html"><div class="ttname"><a href="Operators_8hpp.html">Operators.hpp</a></div></div>
+<div class="ttc" id="aTfLiteRuntime_8hpp_html"><div class="ttname"><a href="TfLiteRuntime_8hpp.html">TfLiteRuntime.hpp</a></div></div>
+<div class="ttc" id="aTfLiteRuntime_8hpp_html_a0f81401a8cd180af6f4eae3afd0858fd"><div class="ttname"><a href="TfLiteRuntime_8hpp.html#a0f81401a8cd180af6f4eae3afd0858fd">TfLiteLogWarningCallback</a></div><div class="ttdeci">void(*)(std::string) TfLiteLogWarningCallback</div><div class="ttdef"><b>Definition:</b> TfLiteRuntime.hpp:17</div></div>
+<div class="ttc" id="aTfLiteRuntime_8hpp_html_ae10cf5db164646559fbb4d9236808f87"><div class="ttname"><a href="TfLiteRuntime_8hpp.html#ae10cf5db164646559fbb4d9236808f87">TfLiteLogErrorCallback</a></div><div class="ttdeci">void(*)(std::string) TfLiteLogErrorCallback</div><div class="ttdef"><b>Definition:</b> TfLiteRuntime.hpp:18</div></div>
+<div class="ttc" id="aclassYoloModel_html"><div class="ttname"><a href="classYoloModel.html">YoloModel</a></div><div class="ttdef"><b>Definition:</b> YoloModel.hpp:6</div></div>
+<div class="ttc" id="aclassYoloModel_html_a7a885b2a8e471881cfa9e95d4c4f6f39"><div class="ttname"><a href="classYoloModel.html#a7a885b2a8e471881cfa9e95d4c4f6f39">YoloModel::get_input_shape</a></div><div class="ttdeci">std::span&lt; const int &gt; get_input_shape()</div><div class="ttdef"><b>Definition:</b> YoloModel.cpp:42</div></div>
+<div class="ttc" id="aclassYoloModel_html_a7e6a8ed64d5d4aedf40cba070e34440c"><div class="ttname"><a href="classYoloModel.html#a7e6a8ed64d5d4aedf40cba070e34440c">YoloModel::bestBox</a></div><div class="ttdeci">std::vector&lt; YoloModel::BoundingBox &gt; bestBox(std::span&lt; float &gt; array)</div><div class="ttdef"><b>Definition:</b> YoloModel.cpp:62</div></div>
+<div class="ttc" id="aclassYoloModel_html_a80c29452820163141a0408763756b327"><div class="ttname"><a href="classYoloModel.html#a80c29452820163141a0408763756b327">YoloModel::get_output_shape</a></div><div class="ttdeci">std::span&lt; const int &gt; get_output_shape()</div><div class="ttdef"><b>Definition:</b> YoloModel.cpp:46</div></div>
+<div class="ttc" id="aclassYoloModel_html_a9c288c4e37baa13e28c7e38df7fdad1f"><div class="ttname"><a href="classYoloModel.html#a9c288c4e37baa13e28c7e38df7fdad1f">YoloModel::create</a></div><div class="ttdeci">tl::expected&lt; bool, std::string &gt; create(std::vector&lt; int8_t &gt; &amp;&amp;model_data, std::vector&lt; std::string &gt; labels, std::string_view gpu_delegate_serialization_dir, std::string_view model_token, TfLiteLogWarningCallback log_warning_callback, TfLiteLogErrorCallback log_error_callback)</div><div class="ttdef"><b>Definition:</b> YoloModel.cpp:10</div></div>
+<div class="ttc" id="aclassYoloModel_html_ac31595e971a025814667a8ded6fa2fcc"><div class="ttname"><a href="classYoloModel.html#ac31595e971a025814667a8ded6fa2fcc">YoloModel::YoloModel</a></div><div class="ttdeci">YoloModel()</div><div class="ttdef"><b>Definition:</b> YoloModel.cpp:8</div></div>
+<div class="ttc" id="aclassYoloModel_html_aea56b6c6444b7751d279927253358ff3"><div class="ttname"><a href="classYoloModel.html#aea56b6c6444b7751d279927253358ff3">YoloModel::run</a></div><div class="ttdeci">tl::expected&lt; void, std::string &gt; run(std::span&lt; float &gt; input, std::span&lt; float &gt; output)</div><div class="ttdef"><b>Definition:</b> YoloModel.cpp:51</div></div>
+<div class="ttc" id="aclassYoloModel_html_aefea6c12d68ebb06b85e45b120d450fe"><div class="ttname"><a href="classYoloModel.html#aefea6c12d68ebb06b85e45b120d450fe">YoloModel::num_elements</a></div><div class="ttdeci">int num_elements</div><div class="ttdef"><b>Definition:</b> YoloModel.hpp:45</div></div>
+<div class="ttc" id="aclassYoloModel_html_aeff1aa10fbfc1d57418b442605cccc17"><div class="ttname"><a href="classYoloModel.html#aeff1aa10fbfc1d57418b442605cccc17">YoloModel::num_channel</a></div><div class="ttdeci">int num_channel</div><div class="ttdef"><b>Definition:</b> YoloModel.hpp:44</div></div>
+<div class="ttc" id="astructYoloModel_1_1BoundingBox_html"><div class="ttname"><a href="structYoloModel_1_1BoundingBox.html">YoloModel::BoundingBox</a></div><div class="ttdef"><b>Definition:</b> YoloModel.hpp:10</div></div>
+<div class="ttc" id="astructYoloModel_1_1BoundingBox_html_a2325bded1b00bbc92b24aabd693d68b8"><div class="ttname"><a href="structYoloModel_1_1BoundingBox.html#a2325bded1b00bbc92b24aabd693d68b8">YoloModel::BoundingBox::x2</a></div><div class="ttdeci">float x2</div><div class="ttdef"><b>Definition:</b> YoloModel.hpp:18</div></div>
+<div class="ttc" id="astructYoloModel_1_1BoundingBox_html_a268733fd761be64edc6df68cdebf3f39"><div class="ttname"><a href="structYoloModel_1_1BoundingBox.html#a268733fd761be64edc6df68cdebf3f39">YoloModel::BoundingBox::cy</a></div><div class="ttdeci">float cy</div><div class="ttdef"><b>Definition:</b> YoloModel.hpp:13</div></div>
+<div class="ttc" id="astructYoloModel_1_1BoundingBox_html_a2753337297d2852c2d3cdf04c15223cd"><div class="ttname"><a href="structYoloModel_1_1BoundingBox.html#a2753337297d2852c2d3cdf04c15223cd">YoloModel::BoundingBox::y1</a></div><div class="ttdeci">float y1</div><div class="ttdef"><b>Definition:</b> YoloModel.hpp:17</div></div>
+<div class="ttc" id="astructYoloModel_1_1BoundingBox_html_a299ee0320aca14a972d8661c688f38da"><div class="ttname"><a href="structYoloModel_1_1BoundingBox.html#a299ee0320aca14a972d8661c688f38da">YoloModel::BoundingBox::h</a></div><div class="ttdeci">float h</div><div class="ttdef"><b>Definition:</b> YoloModel.hpp:15</div></div>
+<div class="ttc" id="astructYoloModel_1_1BoundingBox_html_a3472e6b9088de2fb29c7abcb9e6deaa7"><div class="ttname"><a href="structYoloModel_1_1BoundingBox.html#a3472e6b9088de2fb29c7abcb9e6deaa7">YoloModel::BoundingBox::w</a></div><div class="ttdeci">float w</div><div class="ttdef"><b>Definition:</b> YoloModel.hpp:14</div></div>
+<div class="ttc" id="astructYoloModel_1_1BoundingBox_html_a34bfeba4dd53229849655eccdfb6c8a4"><div class="ttname"><a href="structYoloModel_1_1BoundingBox.html#a34bfeba4dd53229849655eccdfb6c8a4">YoloModel::BoundingBox::x1</a></div><div class="ttdeci">float x1</div><div class="ttdef"><b>Definition:</b> YoloModel.hpp:16</div></div>
+<div class="ttc" id="astructYoloModel_1_1BoundingBox_html_a4e91b4555a393e3b7ab33d2b73aa8750"><div class="ttname"><a href="structYoloModel_1_1BoundingBox.html#a4e91b4555a393e3b7ab33d2b73aa8750">YoloModel::BoundingBox::cx</a></div><div class="ttdeci">float cx</div><div class="ttdef"><b>Definition:</b> YoloModel.hpp:12</div></div>
+<div class="ttc" id="astructYoloModel_1_1BoundingBox_html_a8814693177b8a67f86ac37f663930ced"><div class="ttname"><a href="structYoloModel_1_1BoundingBox.html#a8814693177b8a67f86ac37f663930ced">YoloModel::BoundingBox::cls</a></div><div class="ttdeci">int cls</div><div class="ttdef"><b>Definition:</b> YoloModel.hpp:20</div></div>
+<div class="ttc" id="astructYoloModel_1_1BoundingBox_html_ac7effbbf8616283a9375277c346cd7ab"><div class="ttname"><a href="structYoloModel_1_1BoundingBox.html#ac7effbbf8616283a9375277c346cd7ab">YoloModel::BoundingBox::y2</a></div><div class="ttdeci">float y2</div><div class="ttdef"><b>Definition:</b> YoloModel.hpp:19</div></div>
+<div class="ttc" id="astructYoloModel_1_1BoundingBox_html_af193a7cee1de2d2de5412564e3cd2812"><div class="ttname"><a href="structYoloModel_1_1BoundingBox.html#af193a7cee1de2d2de5412564e3cd2812">YoloModel::BoundingBox::cnf</a></div><div class="ttdeci">float cnf</div><div class="ttdef"><b>Definition:</b> YoloModel.hpp:21</div></div>
+<div class="ttc" id="astructYoloModel_1_1BoundingBox_html_afb8be5b22bb16f2d559e7b05fb921aa0"><div class="ttname"><a href="structYoloModel_1_1BoundingBox.html#afb8be5b22bb16f2d559e7b05fb921aa0">YoloModel::BoundingBox::clsName</a></div><div class="ttdeci">std::string clsName</div><div class="ttdef"><b>Definition:</b> YoloModel.hpp:11</div></div>
+</div><!-- fragment --></div><!-- contents -->
+</div><!-- doc-content -->
+<!-- start footer part -->
+<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+  <ul>
+    <li class="navelem"><a class="el" href="dir_d44c64559bbebec7f509842c48db8b23.html">include</a></li><li class="navelem"><a class="el" href="dir_9ab333535af8b1758ac51ea22e1f79b9.html">EyeAICore</a></li><li class="navelem"><a class="el" href="YoloModel_8hpp.html">YoloModel.hpp</a></li>
+    <li class="footer">Generated by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.1 </li>
+  </ul>
+</div>
+</body>
+</html>

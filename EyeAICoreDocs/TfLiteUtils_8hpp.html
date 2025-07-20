@@ -223,12 +223,14 @@ $(document).ready(function(){initNavTree('TfLiteUtils_8hpp.html',''); initResiza
 </div><div class="textblock"><div class="dynheader">
 Include dependency graph for TfLiteUtils.hpp:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="TfLiteUtils_8hpp__incl.svg" width="1050" height="216"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<div class="center"><iframe scrolling="no" frameborder="0" src="TfLiteUtils_8hpp__incl.svg" width="1050" height="216"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+</div>
 </div>
 </div><div class="textblock"><div class="dynheader">
 This graph shows which files directly or indirectly include this file:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="TfLiteUtils_8hpp__dep__incl.svg" width="602" height="291"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<div class="center"><iframe scrolling="no" frameborder="0" src="TfLiteUtils_8hpp__dep__incl.svg" width="858" height="291"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+</div>
 </div>
 </div>
 <p><a href="TfLiteUtils_8hpp_source.html">Go to the source code of this file.</a></p>
@@ -273,6 +275,8 @@ Functions</h2></td></tr>
 <tr class="separator:afb2851d17cf7bd489ca993e24487c4fd"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a626f02a9818d64ed0cc305ce99cae1bf"><td class="memItemLeft" align="right" valign="top">std::optional&lt; TfLiteAffineQuantization &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="TfLiteUtils_8hpp.html#a626f02a9818d64ed0cc305ce99cae1bf">get_tensor_quantization</a> (const TfLiteTensor *tensor)</td></tr>
 <tr class="separator:a626f02a9818d64ed0cc305ce99cae1bf"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a939eb4e3435f943cf66c847d9aea4051"><td class="memItemLeft" align="right" valign="top">std::span&lt; const int &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="TfLiteUtils_8hpp.html#a939eb4e3435f943cf66c847d9aea4051">get_tensor_shape</a> (const TfLiteTensor *tensor)</td></tr>
+<tr class="separator:a939eb4e3435f943cf66c847d9aea4051"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a0aa9bfeadef0b6b7aa68a35cd8f36465"><td class="memItemLeft" align="right" valign="top">std::unique_ptr&lt; TfLiteDelegate, decltype(&amp;TfLiteGpuDelegateV2Delete)&gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="TfLiteUtils_8hpp.html#a0aa9bfeadef0b6b7aa68a35cd8f36465">create_gpu_delegate</a> (std::string_view gpu_delegate_serialization_dir, std::string_view model_token)</td></tr>
 <tr class="separator:a0aa9bfeadef0b6b7aa68a35cd8f36465"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a0aac62e91d0055f612f2adcaf0c007bc"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="TfLiteUtils_8hpp.html#a0aac62e91d0055f612f2adcaf0c007bc">COMBINED_ERROR</a> (TfLiteLoadNonQuantizedInputError, <a class="el" href="structTfLiteTensorsNotCreatedError.html">TfLiteTensorsNotCreatedError</a>, <a class="el" href="structTfLiteNonFloatTensorTypeError.html">TfLiteNonFloatTensorTypeError</a>, <a class="el" href="structTfLiteTensorElementCountMismatch.html">TfLiteTensorElementCountMismatch</a>, <a class="el" href="structTfLiteCopyFromInputTensorError.html">TfLiteCopyFromInputTensorError</a>)</td></tr>
@@ -790,6 +794,24 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 <dl class="section return"><dt>Returns</dt><dd>internal quantization parameters of tensor, or nullopt if tensor is not quantized </dd></dl>
+
+</div>
+</div>
+<a id="a939eb4e3435f943cf66c847d9aea4051"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a939eb4e3435f943cf66c847d9aea4051">&#9670;&nbsp;</a></span>get_tensor_shape()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::span&lt;const int&gt; get_tensor_shape </td>
+          <td>(</td>
+          <td class="paramtype">const TfLiteTensor *&#160;</td>
+          <td class="paramname"><em>tensor</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
 
 </div>
 </div>

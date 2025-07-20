@@ -1,4 +1,5 @@
 var searchData=
 [
-  ['scopedaccess_149',['ScopedAccess',['../structMutexGuard_1_1ScopedAccess.html',1,'MutexGuard']]]
+  ['rgbnormalizeoperator_171',['RgbNormalizeOperator',['../classRgbNormalizeOperator.html',1,'']]],
+  ['rgbnormalizeoperatoryolo_172',['RgbNormalizeOperatorYolo',['../classRgbNormalizeOperatorYolo.html',1,'']]]
 ];

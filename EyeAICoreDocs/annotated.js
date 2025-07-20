@@ -16,6 +16,7 @@ var annotated =
     [ "ProfilingFrame", "classProfilingFrame.html", "classProfilingFrame" ],
     [ "QuantizationElementsMismatch", "structQuantizationElementsMismatch.html", "structQuantizationElementsMismatch" ],
     [ "RgbNormalizeOperator", "classRgbNormalizeOperator.html", "classRgbNormalizeOperator" ],
+    [ "RgbNormalizeOperatorYolo", "classRgbNormalizeOperatorYolo.html", "classRgbNormalizeOperatorYolo" ],
     [ "TensorType", "classTensorType.html", "classTensorType" ],
     [ "TfLiteAllocateTensorsError", "structTfLiteAllocateTensorsError.html", "structTfLiteAllocateTensorsError" ],
     [ "TfLiteCopyFromInputTensorError", "structTfLiteCopyFromInputTensorError.html", "structTfLiteCopyFromInputTensorError" ],
@@ -27,5 +28,6 @@ var annotated =
     [ "TfLiteRuntime", "classTfLiteRuntime.html", "classTfLiteRuntime" ],
     [ "TfLiteRuntimeBuilder", "classTfLiteRuntimeBuilder.html", "classTfLiteRuntimeBuilder" ],
     [ "TfLiteTensorElementCountMismatch", "structTfLiteTensorElementCountMismatch.html", "structTfLiteTensorElementCountMismatch" ],
-    [ "TfLiteTensorsNotCreatedError", "structTfLiteTensorsNotCreatedError.html", "structTfLiteTensorsNotCreatedError" ]
+    [ "TfLiteTensorsNotCreatedError", "structTfLiteTensorsNotCreatedError.html", "structTfLiteTensorsNotCreatedError" ],
+    [ "YoloModel", "classYoloModel.html", "classYoloModel" ]
 ];

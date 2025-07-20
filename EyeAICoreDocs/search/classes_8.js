@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['rgbnormalizeoperator_148',['RgbNormalizeOperator',['../classRgbNormalizeOperator.html',1,'']]]
+  ['quantizationelementsmismatch_170',['QuantizationElementsMismatch',['../structQuantizationElementsMismatch.html',1,'']]]
 ];

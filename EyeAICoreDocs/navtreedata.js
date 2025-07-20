@@ -27,7 +27,8 @@ var NAVTREE =
   [ "EyeAICore", "index.html", [
     [ "Building EyeAICore", "index.html#autotoc_md1", null ],
     [ "Run EyeAICore Tests", "index.html#autotoc_md2", null ],
-    [ "Generating EyeAICore docs using doxygen", "index.html#autotoc_md3", null ],
+    [ "Profile EyeAICore", "index.html#autotoc_md3", null ],
+    [ "Generating EyeAICore docs using doxygen", "index.html#autotoc_md4", null ],
     [ "C++ EyeAICore API", "usergroup0.html", [
       [ "Classes", "annotated.html", "annotated" ],
       [ "Files", "files.html", "files" ]
@@ -37,7 +38,8 @@ var NAVTREE =
 
 var NAVTREEINDEX =
 [
-"DepthColormap_8cpp.html"
+"DepthColormap_8cpp.html",
+"structTfLiteInvokeInterpreterError.html#ab45df1e266d23a2661d5dd6a7c6992b3"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';

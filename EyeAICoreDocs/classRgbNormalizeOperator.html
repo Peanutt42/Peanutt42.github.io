@@ -218,16 +218,22 @@ $(document).ready(function(){initNavTree('classRgbNormalizeOperator.html',''); i
 <div class="dynheader">
 Inheritance diagram for RgbNormalizeOperator:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="classRgbNormalizeOperator__inherit__graph.svg" width="166" height="112"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<div class="center"><iframe scrolling="no" frameborder="0" src="classRgbNormalizeOperator__inherit__graph.svg" width="166" height="112"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+</div>
 <center><span class="legend">[<a target="top" href="graph_legend.html">legend</a>]</span></center></div>
 <div class="dynheader">
 Collaboration diagram for RgbNormalizeOperator:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="classRgbNormalizeOperator__coll__graph.svg" width="248" height="142"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<div class="center"><iframe scrolling="no" frameborder="0" src="classRgbNormalizeOperator__coll__graph.svg" width="248" height="142"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+</div>
 <center><span class="legend">[<a target="top" href="graph_legend.html">legend</a>]</span></center></div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
+<tr class="memitem:af28a388f91dbf44465b53c196d713fda"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classRgbNormalizeOperator.html#af28a388f91dbf44465b53c196d713fda">RgbNormalizeOperator</a> ()=default</td></tr>
+<tr class="separator:af28a388f91dbf44465b53c196d713fda"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1ed4de57b8f0ce32bf2667faa2f6739c"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classRgbNormalizeOperator.html#a1ed4de57b8f0ce32bf2667faa2f6739c">RgbNormalizeOperator</a> (std::array&lt; float, 3 &gt; <a class="el" href="classRgbNormalizeOperator.html#acd6bcfffc68b447ce20e5449bc5180fd">mean</a>, std::array&lt; float, 3 &gt; <a class="el" href="classRgbNormalizeOperator.html#a6800f4cf8e333800da4420d2102a38d2">stddev</a>)</td></tr>
+<tr class="separator:a1ed4de57b8f0ce32bf2667faa2f6739c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a23539f4dcb8a054d1574a302a0196b71"><td class="memItemLeft" align="right" valign="top">std::optional&lt; <a class="el" href="structOperatorError.html">OperatorError</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classRgbNormalizeOperator.html#a23539f4dcb8a054d1574a302a0196b71">execute</a> (std::span&lt; float &gt; values) const override</td></tr>
 <tr class="separator:a23539f4dcb8a054d1574a302a0196b71"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pub_methods_classOperator"><td colspan="2" onclick="javascript:toggleInherit('pub_methods_classOperator')"><img src="closed.png" alt="-"/>&#160;Public Member Functions inherited from <a class="el" href="classOperator.html">Operator</a></td></tr>
@@ -253,7 +259,69 @@ Public Attributes</h2></td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>normalizes rgb input values (3 floats for r, g and b) based on their mean and standard deviation values </p>
-</div><h2 class="groupheader">Member Function Documentation</h2>
+</div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
+<a id="af28a388f91dbf44465b53c196d713fda"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af28a388f91dbf44465b53c196d713fda">&#9670;&nbsp;</a></span>RgbNormalizeOperator() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">RgbNormalizeOperator::RgbNormalizeOperator </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">default</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a1ed4de57b8f0ce32bf2667faa2f6739c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1ed4de57b8f0ce32bf2667faa2f6739c">&#9670;&nbsp;</a></span>RgbNormalizeOperator() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">RgbNormalizeOperator::RgbNormalizeOperator </td>
+          <td>(</td>
+          <td class="paramtype">std::array&lt; float, 3 &gt;&#160;</td>
+          <td class="paramname"><em>mean</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">std::array&lt; float, 3 &gt;&#160;</td>
+          <td class="paramname"><em>stddev</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<h2 class="groupheader">Member Function Documentation</h2>
 <a id="a23539f4dcb8a054d1574a302a0196b71"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a23539f4dcb8a054d1574a302a0196b71">&#9670;&nbsp;</a></span>execute()</h2>
 

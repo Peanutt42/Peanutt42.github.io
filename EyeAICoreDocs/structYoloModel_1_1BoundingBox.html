@@ -1,0 +1,414 @@
+<!-- HTML header for doxygen 1.9.1-->
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+	<head>
+		<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=9" />
+		<meta name="generator" content="Doxygen 1.9.1" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<title>EyeAICore: YoloModel::BoundingBox Struct Reference</title>
+		<link href="tabs.css" rel="stylesheet" type="text/css" />
+		<script type="text/javascript" src="jquery.js"></script>
+		<script type="text/javascript" src="dynsections.js"></script>
+		<link href="navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="resize.js"></script>
+<script type="text/javascript" src="navtreedata.js"></script>
+<script type="text/javascript" src="navtree.js"></script>
+ <link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+		<link href="doxygen.css" rel="stylesheet" type="text/css" />
+		<link href="doxygen-awesome.css" rel="stylesheet" type="text/css"/>
+<link href="doxygen-awesome-sidebar-only.css" rel="stylesheet" type="text/css"/>
+<link href="doxygen-awesome-sidebar-only-darkmode-toggle.css" rel="stylesheet" type="text/css"/>
+<link href="custom.css" rel="stylesheet" type="text/css"/>
+		<!-- ... other metadata & script includes ... -->
+		<!-- extension-dark-mode-toggle -->
+		<script
+			type="text/javascript"
+			src="doxygen-awesome-darkmode-toggle.js"
+		></script>
+		<script type="text/javascript">
+			DoxygenAwesomeDarkModeToggle.init();
+		</script>
+		<!-- extension-copy-button -->
+		<script
+			type="text/javascript"
+			src="doxygen-awesome-fragment-copy-button.js"
+		></script>
+		<script type="text/javascript">
+			DoxygenAwesomeFragmentCopyButton.init();
+		</script>
+		<!-- Makes the search result entries font size larger -->
+		<script type="text/javascript">
+			// This changes the search result font size, as the default is way too small.
+			document.addEventListener("DOMContentLoaded", function () {
+				const observer = new MutationObserver(function (mutations) {
+					const searchIframe = document.querySelector(
+						'iframe[name="MSearchResults"]',
+					);
+					if (searchIframe) {
+						searchIframe.addEventListener("load", function () {
+							const makeFontLarger = (entries) => {
+								for (let i = 0; i < entries.length; i++) {
+									entries[i].style.fontSize = "14.4px";
+									entries[i].style.paddingTop = "3px";
+									entries[i].style.paddingBottom = "3px";
+								}
+							};
+							const searchIframeDoc =
+								searchIframe.contentDocument;
+							makeFontLarger(
+								searchIframeDoc.getElementsByClassName(
+									"SREntry",
+								),
+							);
+							makeFontLarger(
+								searchIframeDoc.getElementsByClassName(
+									"SRScope",
+								),
+							);
+						});
+						observer.disconnect();
+					}
+				});
+				observer.observe(document.body, {
+					childList: true,
+					subtree: true,
+				});
+			});
+		</script>
+	</head>
+	<body>
+		<!-- https://tholman.com/github-corners/ -->
+		<a
+			href="https://github.com/SimplyExo/eye-ai"
+			class="github-corner"
+			aria-label="View source on GitHub"
+			><svg
+				width="80"
+				height="80"
+				viewBox="0 0 250 250"
+				style="
+					fill: #151513;
+					color: #fff;
+					position: absolute;
+					top: 0;
+					border: 0;
+					right: 0;
+				"
+				aria-hidden="true"
+			>
+				<path d="M0,0 L115,115 L130,115 L142,142 L250,250 L250,0 Z" />
+				<path
+					d="M128.3,109.0 C113.8,99.7 119.0,89.6 119.0,89.6 C122.0,82.7 120.5,78.6 120.5,78.6 C119.2,72.0 123.4,76.3 123.4,76.3 C127.3,80.9 125.5,87.3 125.5,87.3 C122.9,97.6 130.6,101.9 134.4,103.2"
+					fill="currentColor"
+					style="transform-origin: 130px 106px"
+					class="octo-arm"
+				/>
+				<path
+					d="M115.0,115.0 C114.9,115.1 118.7,116.5 119.8,115.4 L133.7,101.6 C136.9,99.2 139.9,98.4 142.2,98.6 C133.8,88.0 127.5,74.4 143.8,58.0 C148.5,53.4 154.0,51.2 159.7,51.0 C160.3,49.4 163.2,43.6 171.4,40.1 C171.4,40.1 176.1,42.5 178.8,56.2 C183.1,58.6 187.2,61.8 190.9,65.4 C194.5,69.0 197.7,73.2 200.1,77.6 C213.8,80.2 216.3,84.9 216.3,84.9 C212.7,93.1 206.9,96.0 205.4,96.6 C205.1,102.4 203.0,107.8 198.3,112.5 C181.9,128.9 168.3,122.5 157.7,114.1 C157.9,116.9 156.7,120.9 152.7,124.9 L141.0,136.5 C139.8,137.7 141.6,141.9 141.8,141.8 Z"
+					fill="currentColor"
+					class="octo-body"
+				/></svg></a
+		><style>
+			.github-corner:hover .octo-arm {
+				animation: octocat-wave 560ms ease-in-out;
+			}
+			@keyframes octocat-wave {
+				0%,
+				100% {
+					transform: rotate(0);
+				}
+				20%,
+				60% {
+					transform: rotate(-25deg);
+				}
+				40%,
+				80% {
+					transform: rotate(10deg);
+				}
+			}
+			@media (max-width: 500px) {
+				.github-corner:hover .octo-arm {
+					animation: none;
+				}
+				.github-corner .octo-arm {
+					animation: octocat-wave 560ms ease-in-out;
+				}
+			}
+		</style>
+		<div id="top">
+			<!-- do not remove this div, it is closed by doxygen! -->
+			<div id="titlearea">
+				<table cellspacing="0" cellpadding="0">
+					<tbody>
+						<tr style="height: 56px">
+							<td id="projectalign" style="padding-left: 0.5em">
+								<div id="projectname">
+									EyeAICore
+								</div>
+							</td>
+						</tr>
+					</tbody>
+				</table>
+			</div>
+			<!-- end header part -->
+		</div>
+	</body>
+</html>
+<!-- Generated by Doxygen 1.9.1 -->
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
+var searchBox = new SearchBox("searchBox", "search",false,'Search','.html');
+/* @license-end */
+</script>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
+$(function() {
+  initMenu('',true,false,'search.php','Search');
+  $(document).ready(function() { init_search(); });
+});
+/* @license-end */</script>
+<div id="main-nav"></div>
+</div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
+$(document).ready(function(){initNavTree('structYoloModel_1_1BoundingBox.html',''); initResizable(); });
+/* @license-end */
+</script>
+<div id="doc-content">
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+<div class="header">
+  <div class="summary">
+<a href="#pub-attribs">Public Attributes</a> &#124;
+<a href="structYoloModel_1_1BoundingBox-members.html">List of all members</a>  </div>
+  <div class="headertitle">
+<div class="title">YoloModel::BoundingBox Struct Reference</div>  </div>
+</div><!--header-->
+<div class="contents">
+
+<p><code>#include &lt;<a class="el" href="YoloModel_8hpp_source.html">YoloModel.hpp</a>&gt;</code></p>
+<div class="dynheader">
+Collaboration diagram for YoloModel::BoundingBox:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" frameborder="0" src="structYoloModel_1_1BoundingBox__coll__graph.svg" width="178" height="218"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+</div>
+<center><span class="legend">[<a target="top" href="graph_legend.html">legend</a>]</span></center></div>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-attribs"></a>
+Public Attributes</h2></td></tr>
+<tr class="memitem:afb8be5b22bb16f2d559e7b05fb921aa0"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structYoloModel_1_1BoundingBox.html#afb8be5b22bb16f2d559e7b05fb921aa0">clsName</a> = &quot;&quot;</td></tr>
+<tr class="separator:afb8be5b22bb16f2d559e7b05fb921aa0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4e91b4555a393e3b7ab33d2b73aa8750"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structYoloModel_1_1BoundingBox.html#a4e91b4555a393e3b7ab33d2b73aa8750">cx</a> = 0</td></tr>
+<tr class="separator:a4e91b4555a393e3b7ab33d2b73aa8750"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a268733fd761be64edc6df68cdebf3f39"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structYoloModel_1_1BoundingBox.html#a268733fd761be64edc6df68cdebf3f39">cy</a> = 0</td></tr>
+<tr class="separator:a268733fd761be64edc6df68cdebf3f39"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3472e6b9088de2fb29c7abcb9e6deaa7"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structYoloModel_1_1BoundingBox.html#a3472e6b9088de2fb29c7abcb9e6deaa7">w</a> = 0</td></tr>
+<tr class="separator:a3472e6b9088de2fb29c7abcb9e6deaa7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a299ee0320aca14a972d8661c688f38da"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structYoloModel_1_1BoundingBox.html#a299ee0320aca14a972d8661c688f38da">h</a> = 0</td></tr>
+<tr class="separator:a299ee0320aca14a972d8661c688f38da"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a34bfeba4dd53229849655eccdfb6c8a4"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structYoloModel_1_1BoundingBox.html#a34bfeba4dd53229849655eccdfb6c8a4">x1</a> = 0</td></tr>
+<tr class="separator:a34bfeba4dd53229849655eccdfb6c8a4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2753337297d2852c2d3cdf04c15223cd"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structYoloModel_1_1BoundingBox.html#a2753337297d2852c2d3cdf04c15223cd">y1</a> = 0</td></tr>
+<tr class="separator:a2753337297d2852c2d3cdf04c15223cd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2325bded1b00bbc92b24aabd693d68b8"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structYoloModel_1_1BoundingBox.html#a2325bded1b00bbc92b24aabd693d68b8">x2</a> = 0</td></tr>
+<tr class="separator:a2325bded1b00bbc92b24aabd693d68b8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac7effbbf8616283a9375277c346cd7ab"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structYoloModel_1_1BoundingBox.html#ac7effbbf8616283a9375277c346cd7ab">y2</a> = 0</td></tr>
+<tr class="separator:ac7effbbf8616283a9375277c346cd7ab"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8814693177b8a67f86ac37f663930ced"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structYoloModel_1_1BoundingBox.html#a8814693177b8a67f86ac37f663930ced">cls</a> = 0</td></tr>
+<tr class="separator:a8814693177b8a67f86ac37f663930ced"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af193a7cee1de2d2de5412564e3cd2812"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structYoloModel_1_1BoundingBox.html#af193a7cee1de2d2de5412564e3cd2812">cnf</a> = 0</td></tr>
+<tr class="separator:af193a7cee1de2d2de5412564e3cd2812"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<h2 class="groupheader">Member Data Documentation</h2>
+<a id="a8814693177b8a67f86ac37f663930ced"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8814693177b8a67f86ac37f663930ced">&#9670;&nbsp;</a></span>cls</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int YoloModel::BoundingBox::cls = 0</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="afb8be5b22bb16f2d559e7b05fb921aa0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#afb8be5b22bb16f2d559e7b05fb921aa0">&#9670;&nbsp;</a></span>clsName</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::string YoloModel::BoundingBox::clsName = &quot;&quot;</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="af193a7cee1de2d2de5412564e3cd2812"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af193a7cee1de2d2de5412564e3cd2812">&#9670;&nbsp;</a></span>cnf</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">float YoloModel::BoundingBox::cnf = 0</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a4e91b4555a393e3b7ab33d2b73aa8750"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4e91b4555a393e3b7ab33d2b73aa8750">&#9670;&nbsp;</a></span>cx</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">float YoloModel::BoundingBox::cx = 0</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a268733fd761be64edc6df68cdebf3f39"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a268733fd761be64edc6df68cdebf3f39">&#9670;&nbsp;</a></span>cy</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">float YoloModel::BoundingBox::cy = 0</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a299ee0320aca14a972d8661c688f38da"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a299ee0320aca14a972d8661c688f38da">&#9670;&nbsp;</a></span>h</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">float YoloModel::BoundingBox::h = 0</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a3472e6b9088de2fb29c7abcb9e6deaa7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3472e6b9088de2fb29c7abcb9e6deaa7">&#9670;&nbsp;</a></span>w</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">float YoloModel::BoundingBox::w = 0</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a34bfeba4dd53229849655eccdfb6c8a4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a34bfeba4dd53229849655eccdfb6c8a4">&#9670;&nbsp;</a></span>x1</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">float YoloModel::BoundingBox::x1 = 0</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a2325bded1b00bbc92b24aabd693d68b8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2325bded1b00bbc92b24aabd693d68b8">&#9670;&nbsp;</a></span>x2</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">float YoloModel::BoundingBox::x2 = 0</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a2753337297d2852c2d3cdf04c15223cd"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2753337297d2852c2d3cdf04c15223cd">&#9670;&nbsp;</a></span>y1</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">float YoloModel::BoundingBox::y1 = 0</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ac7effbbf8616283a9375277c346cd7ab"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac7effbbf8616283a9375277c346cd7ab">&#9670;&nbsp;</a></span>y2</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">float YoloModel::BoundingBox::y2 = 0</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+</div><!-- contents -->
+</div><!-- doc-content -->
+<!-- start footer part -->
+<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+  <ul>
+    <li class="navelem"><a class="el" href="classYoloModel.html">YoloModel</a></li><li class="navelem"><a class="el" href="structYoloModel_1_1BoundingBox.html">BoundingBox</a></li>
+    <li class="footer">Generated by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.1 </li>
+  </ul>
+</div>
+</body>
+</html>

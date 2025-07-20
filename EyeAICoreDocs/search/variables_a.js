@@ -1,6 +1,7 @@
 var searchData=
 [
-  ['tensor_5felement_5ftype_259',['tensor_element_type',['../structTfLiteNonFloatTensorTypeError.html#ae60e4ba26f8dd5617d879bd0ae6b7c85',1,'TfLiteNonFloatTensorTypeError']]],
-  ['tensor_5ftype_260',['tensor_type',['../structTfLiteNonFloatTensorTypeError.html#ae7b7b866b9291867f9b2dd9f7dfe6175',1,'TfLiteNonFloatTensorTypeError::tensor_type()'],['../structTfLiteTensorsNotCreatedError.html#a332e0d1435b2e717d4c06a37f1c1f24a',1,'TfLiteTensorsNotCreatedError::tensor_type()'],['../structTfLiteTensorElementCountMismatch.html#aa345630a06dcf56593915c092d9413d7',1,'TfLiteTensorElementCountMismatch::tensor_type()']]],
-  ['type_261',['type',['../classTensorType.html#a9ff1927fc9804ac785a2748fc02e7af8',1,'TensorType']]]
+  ['scope_5fdepth_297',['scope_depth',['../structProfileScopeRecord.html#a5ba7db589de9fe23f136e049f5b3baf7',1,'ProfileScopeRecord']]],
+  ['start_298',['start',['../structProfileScopeRecord.html#a65a7e4be314acc46cd97078405768924',1,'ProfileScopeRecord']]],
+  ['status_299',['status',['../structTfLiteCopyFromInputTensorError.html#a4ecc09d76332ea07e745ff57a8c4f609',1,'TfLiteCopyFromInputTensorError::status()'],['../structTfLiteCopyToOutputTensorError.html#a91b6120b101f07b92b5efa4519e6692a',1,'TfLiteCopyToOutputTensorError::status()'],['../structTfLiteAllocateTensorsError.html#a88fe18e44e04da521b92472c08a30c21',1,'TfLiteAllocateTensorsError::status()'],['../structTfLiteInvokeInterpreterError.html#ab45df1e266d23a2661d5dd6a7c6992b3',1,'TfLiteInvokeInterpreterError::status()']]],
+  ['stddev_300',['stddev',['../classRgbNormalizeOperator.html#a6800f4cf8e333800da4420d2102a38d2',1,'RgbNormalizeOperator']]]
 ];

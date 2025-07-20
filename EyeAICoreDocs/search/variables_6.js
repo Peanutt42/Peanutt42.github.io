@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['name_251',['name',['../structProfileScopeRecord.html#a5f7ef82c7d5dff514e787d75d53da749',1,'ProfileScopeRecord']]]
+  ['mean_290',['mean',['../classRgbNormalizeOperator.html#acd6bcfffc68b447ce20e5449bc5180fd',1,'RgbNormalizeOperator']]]
 ];

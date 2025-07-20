@@ -1,5 +1,5 @@
 var searchData=
 [
-  ['log_5ferror_5fcallback_248',['log_error_callback',['../structTfLiteReporterUserData.html#a78e1f501ae1c748c1b3f7e4dc87bfe87',1,'TfLiteReporterUserData']]],
-  ['log_5fwarning_5fcallback_249',['log_warning_callback',['../structTfLiteReporterUserData.html#a6f2c8219d5f7ebc73843f1f29338c89f',1,'TfLiteReporterUserData']]]
+  ['inferno_5fcolors_286',['INFERNO_COLORS',['../DepthColormap_8cpp.html#ac18e41748a8085f15b4b28187ee04aa6',1,'DepthColormap.cpp']]],
+  ['input_5felements_287',['input_elements',['../structQuantizationElementsMismatch.html#a1d80befb65abec1ec0b91c2d5a1a402c',1,'QuantizationElementsMismatch']]]
 ];

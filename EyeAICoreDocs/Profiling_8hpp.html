@@ -220,12 +220,14 @@ $(document).ready(function(){initNavTree('Profiling_8hpp.html',''); initResizabl
 </div><div class="textblock"><div class="dynheader">
 Include dependency graph for Profiling.hpp:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="Profiling_8hpp__incl.svg" width="339" height="127"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<div class="center"><iframe scrolling="no" frameborder="0" src="Profiling_8hpp__incl.svg" width="339" height="127"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+</div>
 </div>
 </div><div class="textblock"><div class="dynheader">
 This graph shows which files directly or indirectly include this file:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="Profiling_8hpp__dep__incl.svg" width="906" height="127"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<div class="center"><iframe scrolling="no" frameborder="0" src="Profiling_8hpp__dep__incl.svg" width="906" height="127"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+</div>
 </div>
 </div>
 <p><a href="Profiling_8hpp_source.html">Go to the source code of this file.</a></p>
@@ -243,6 +245,8 @@ Classes</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="define-members"></a>
 Macros</h2></td></tr>
+<tr class="memitem:a1177794eea3a055773ac1cc983f8684c"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="Profiling_8hpp.html#a1177794eea3a055773ac1cc983f8684c">FUNCTION_NAME</a>()&#160;&#160;&#160;__func__</td></tr>
+<tr class="separator:a1177794eea3a055773ac1cc983f8684c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7df5abefd879020edfa5d730c36c8dd5"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="Profiling_8hpp.html#a7df5abefd879020edfa5d730c36c8dd5">COMBINE</a>(x,  y)&#160;&#160;&#160;x##y</td></tr>
 <tr class="separator:a7df5abefd879020edfa5d730c36c8dd5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae62415c6e146cab1f66ac28e877d4cac"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="Profiling_8hpp.html#ae62415c6e146cab1f66ac28e877d4cac">COMBINE2</a>(x,  y)&#160;&#160;&#160;<a class="el" href="Profiling_8hpp.html#a7df5abefd879020edfa5d730c36c8dd5">COMBINE</a>(x, y)</td></tr>
@@ -251,8 +255,6 @@ Macros</h2></td></tr>
 <tr class="separator:a0bc2cd0576a9790ac42e25169ab9ff85"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6c05c8fa137935da5b4312251d39143e"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="Profiling_8hpp.html#a6c05c8fa137935da5b4312251d39143e">PROFILE_CAMERA_SCOPE</a>(name)</td></tr>
 <tr class="separator:a6c05c8fa137935da5b4312251d39143e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a1177794eea3a055773ac1cc983f8684c"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="Profiling_8hpp.html#a1177794eea3a055773ac1cc983f8684c">FUNCTION_NAME</a>()&#160;&#160;&#160;__func__</td></tr>
-<tr class="separator:a1177794eea3a055773ac1cc983f8684c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9ebae31355a11d7a16a3817a4c9e7b0b"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="Profiling_8hpp.html#a9ebae31355a11d7a16a3817a4c9e7b0b">PROFILE_DEPTH_FUNCTION</a>()</td></tr>
 <tr class="separator:a9ebae31355a11d7a16a3817a4c9e7b0b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab41383ea8c9f155cf416f89b04947a4f"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="Profiling_8hpp.html#ab41383ea8c9f155cf416f89b04947a4f">PROFILE_CAMERA_FUNCTION</a>()</td></tr>
@@ -370,8 +372,8 @@ Functions</h2></td></tr>
 <div class="line">        static_cast&lt;const char*&gt;(<a class="code" href="Profiling_8hpp.html#a1177794eea3a055773ac1cc983f8684c">FUNCTION_NAME</a>()),                             \</div>
 <div class="line">        get_camera_profiling_frame()                                           \</div>
 <div class="line">    );</div>
-<div class="ttc" id="aProfiling_8hpp_html_a1177794eea3a055773ac1cc983f8684c"><div class="ttname"><a href="Profiling_8hpp.html#a1177794eea3a055773ac1cc983f8684c">FUNCTION_NAME</a></div><div class="ttdeci">#define FUNCTION_NAME()</div><div class="ttdef"><b>Definition:</b> Profiling.hpp:100</div></div>
-<div class="ttc" id="aProfiling_8hpp_html_ae62415c6e146cab1f66ac28e877d4cac"><div class="ttname"><a href="Profiling_8hpp.html#ae62415c6e146cab1f66ac28e877d4cac">COMBINE2</a></div><div class="ttdeci">#define COMBINE2(x, y)</div><div class="ttdef"><b>Definition:</b> Profiling.hpp:86</div></div>
+<div class="ttc" id="aProfiling_8hpp_html_a1177794eea3a055773ac1cc983f8684c"><div class="ttname"><a href="Profiling_8hpp.html#a1177794eea3a055773ac1cc983f8684c">FUNCTION_NAME</a></div><div class="ttdeci">#define FUNCTION_NAME()</div><div class="ttdef"><b>Definition:</b> Profiling.hpp:89</div></div>
+<div class="ttc" id="aProfiling_8hpp_html_ae62415c6e146cab1f66ac28e877d4cac"><div class="ttname"><a href="Profiling_8hpp.html#ae62415c6e146cab1f66ac28e877d4cac">COMBINE2</a></div><div class="ttdeci">#define COMBINE2(x, y)</div><div class="ttdef"><b>Definition:</b> Profiling.hpp:94</div></div>
 <div class="ttc" id="astructProfileScope_html"><div class="ttname"><a href="structProfileScope.html">ProfileScope</a></div><div class="ttdoc">A RAII object to start and stop a profile scope of a ProfilingFrame.</div><div class="ttdef"><b>Definition:</b> Profiling.hpp:14</div></div>
 </div><!-- fragment -->
 </div>
@@ -394,7 +396,7 @@ Functions</h2></td></tr>
 <b>Value:</b><div class="fragment"><div class="line">    <span class="keyword">const</span> <a class="code" href="structProfileScope.html">ProfileScope</a> <a class="code" href="Profiling_8hpp.html#ae62415c6e146cab1f66ac28e877d4cac">COMBINE2</a>(__profile_scope_, __LINE__)(                   \</div>
 <div class="line">        name, <a class="code" href="Profiling_8hpp.html#aed493d31242f887defef1d3b10cdb5e5">get_camera_profiling_frame</a>()                                     \</div>
 <div class="line">    );</div>
-<div class="ttc" id="aProfiling_8hpp_html_aed493d31242f887defef1d3b10cdb5e5"><div class="ttname"><a href="Profiling_8hpp.html#aed493d31242f887defef1d3b10cdb5e5">get_camera_profiling_frame</a></div><div class="ttdeci">ProfilingFrame &amp; get_camera_profiling_frame()</div><div class="ttdef"><b>Definition:</b> Profiling.cpp:103</div></div>
+<div class="ttc" id="aProfiling_8hpp_html_aed493d31242f887defef1d3b10cdb5e5"><div class="ttname"><a href="Profiling_8hpp.html#aed493d31242f887defef1d3b10cdb5e5">get_camera_profiling_frame</a></div><div class="ttdeci">ProfilingFrame &amp; get_camera_profiling_frame()</div><div class="ttdef"><b>Definition:</b> Profiling.cpp:112</div></div>
 </div><!-- fragment -->
 </div>
 </div>
@@ -415,7 +417,7 @@ Functions</h2></td></tr>
 <b>Value:</b><div class="fragment"><div class="line">    <span class="keyword">const</span> <a class="code" href="structProfileScope.html">ProfileScope</a> <a class="code" href="Profiling_8hpp.html#ae62415c6e146cab1f66ac28e877d4cac">COMBINE2</a>(__profile_scope_, __LINE__)(                   \</div>
 <div class="line">        static_cast&lt;const char*&gt;(<a class="code" href="Profiling_8hpp.html#a1177794eea3a055773ac1cc983f8684c">FUNCTION_NAME</a>()), <a class="code" href="Profiling_8hpp.html#adc8df049fb9e234a899700bae8fc20de">get_depth_profiling_frame</a>() \</div>
 <div class="line">    );</div>
-<div class="ttc" id="aProfiling_8hpp_html_adc8df049fb9e234a899700bae8fc20de"><div class="ttname"><a href="Profiling_8hpp.html#adc8df049fb9e234a899700bae8fc20de">get_depth_profiling_frame</a></div><div class="ttdeci">ProfilingFrame &amp; get_depth_profiling_frame()</div><div class="ttdef"><b>Definition:</b> Profiling.cpp:101</div></div>
+<div class="ttc" id="aProfiling_8hpp_html_adc8df049fb9e234a899700bae8fc20de"><div class="ttname"><a href="Profiling_8hpp.html#adc8df049fb9e234a899700bae8fc20de">get_depth_profiling_frame</a></div><div class="ttdeci">ProfilingFrame &amp; get_depth_profiling_frame()</div><div class="ttdef"><b>Definition:</b> Profiling.cpp:110</div></div>
 </div><!-- fragment -->
 </div>
 </div>

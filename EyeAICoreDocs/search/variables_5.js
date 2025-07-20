@@ -1,4 +1,5 @@
 var searchData=
 [
-  ['mean_250',['mean',['../classRgbNormalizeOperator.html#acd6bcfffc68b447ce20e5449bc5180fd',1,'RgbNormalizeOperator']]]
+  ['log_5ferror_5fcallback_288',['log_error_callback',['../structTfLiteReporterUserData.html#a78e1f501ae1c748c1b3f7e4dc87bfe87',1,'TfLiteReporterUserData']]],
+  ['log_5fwarning_5fcallback_289',['log_warning_callback',['../structTfLiteReporterUserData.html#a6f2c8219d5f7ebc73843f1f29338c89f',1,'TfLiteReporterUserData']]]
 ];

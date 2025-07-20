@@ -1,9 +1,11 @@
 <map id="include/EyeAICore/utils/Errors.hpp" name="include/EyeAICore/utils/Errors.hpp">
-<area shape="rect" id="node1" title=" " alt="" coords="320,5,479,47"/>
-<area shape="rect" id="node2" href="$TfLiteUtils_8hpp.html" title=" " alt="" coords="319,95,479,136"/>
-<area shape="rect" id="node3" href="$TfLiteRuntime_8hpp.html" title=" " alt="" coords="199,184,359,225"/>
-<area shape="rect" id="node6" href="$TfLiteRuntime_8cpp.html" title=" " alt="" coords="312,273,492,300"/>
-<area shape="rect" id="node7" href="$TfLiteUtils_8cpp.html" title=" " alt="" coords="437,191,596,218"/>
+<area shape="rect" id="node1" title=" " alt="" coords="576,5,735,47"/>
+<area shape="rect" id="node2" href="$TfLiteUtils_8hpp.html" title=" " alt="" coords="575,95,735,136"/>
+<area shape="rect" id="node3" href="$TfLiteRuntime_8hpp.html" title=" " alt="" coords="415,184,575,225"/>
+<area shape="rect" id="node8" href="$TfLiteRuntime_8cpp.html" title=" " alt="" coords="608,273,788,300"/>
+<area shape="rect" id="node9" href="$TfLiteUtils_8cpp.html" title=" " alt="" coords="693,191,852,218"/>
 <area shape="rect" id="node4" href="$DepthModel_8hpp.html" title=" " alt="" coords="5,273,236,300"/>
-<area shape="rect" id="node5" href="$DepthModel_8cpp.html" title=" " alt="" coords="127,348,266,375"/>
+<area shape="rect" id="node5" href="$DepthModel_8cpp.html" title=" " alt="" coords="163,348,302,375"/>
+<area shape="rect" id="node6" href="$YoloModel_8hpp.html" title=" " alt="" coords="312,273,532,300"/>
+<area shape="rect" id="node7" href="$YoloModel_8cpp.html" title=" " alt="" coords="397,348,527,375"/>
 </map>

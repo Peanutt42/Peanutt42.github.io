@@ -1,6 +1,5 @@
 var searchData=
 [
-  ['operator_141',['Operator',['../classOperator.html',1,'']]],
-  ['operatorerror_142',['OperatorError',['../structOperatorError.html',1,'']]],
-  ['overloads_143',['Overloads',['../structOverloads.html',1,'']]]
+  ['minmaxoperator_162',['MinMaxOperator',['../classMinMaxOperator.html',1,'']]],
+  ['mutexguard_163',['MutexGuard',['../classMutexGuard.html',1,'']]]
 ];

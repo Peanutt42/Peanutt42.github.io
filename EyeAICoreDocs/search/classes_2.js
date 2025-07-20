@@ -1,5 +1,5 @@
 var searchData=
 [
-  ['depthcolorarraysizemismatch_135',['DepthColorArraySizeMismatch',['../structDepthColorArraySizeMismatch.html',1,'']]],
-  ['depthmodel_136',['DepthModel',['../classDepthModel.html',1,'']]]
+  ['combinederror_156',['CombinedError',['../structCombinedError.html',1,'']]],
+  ['constscopedaccess_157',['ConstScopedAccess',['../structMutexGuard_1_1ConstScopedAccess.html',1,'MutexGuard']]]
 ];
