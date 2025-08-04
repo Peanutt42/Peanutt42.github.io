@@ -1,5 +1,5 @@
 var DepthColormap_8hpp =
 [
     [ "DepthColorArraySizeMismatch", "structDepthColorArraySizeMismatch.html", "structDepthColorArraySizeMismatch" ],
-    [ "depth_colormap", "DepthColormap_8hpp.html#af4559411646e9ad12030264ce1aa07c1", null ]
+    [ "depth_colormap", "DepthColormap_8hpp.html#a0fd909f8c8610416a1fd0eea22f9bd3c", null ]
 ];

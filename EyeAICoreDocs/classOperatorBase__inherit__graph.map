@@ -1,0 +1,17 @@
+<map id="OperatorBase" name="OperatorBase">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,145,107,172"/>
+<area shape="rect" id="Node000002" href="$classOperator.html" title=" " alt="" coords="155,5,375,64"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="79,132,113,102,153,74,175,62,178,67,156,78,116,107,83,136"/>
+<area shape="rect" id="Node000004" href="$classOperator.html" title=" " alt="" coords="157,88,372,147"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="122,143,156,136,157,141,123,148"/>
+<area shape="rect" id="Node000006" href="$classOperator.html" title=" " alt="" coords="155,171,375,229"/>
+<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="123,169,155,175,154,181,122,174"/>
+<area shape="rect" id="Node000008" href="$classOperator.html" title=" " alt="" coords="179,253,350,280"/>
+<area shape="poly" id="edge7_Node000001_Node000008" title=" " alt="" coords="81,181,115,211,156,239,184,250,183,255,153,244,111,216,77,185"/>
+<area shape="rect" id="Node000003" href="$classMiDaSImageOperator.html" title=" " alt="" coords="440,21,587,48"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="391,32,440,32,440,37,391,37"/>
+<area shape="rect" id="Node000005" href="$classRelativeDepthPostOperator.html" title="rescales values from [min, max] to [0, 1]" alt="" coords="423,104,604,131"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="388,115,422,115,422,120,388,120"/>
+<area shape="rect" id="Node000007" href="$classYoloImageOperator.html" title=" " alt="" coords="448,187,580,213"/>
+<area shape="poly" id="edge6_Node000006_Node000007" title=" " alt="" coords="390,197,447,197,447,203,390,203"/>
+</map>

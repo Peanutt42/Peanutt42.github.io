@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['unexpected_5ffmt_265',['unexpected_fmt',['../namespacetl.html#a469bce7451ce5a0af8a3ae0d27718790',1,'tl']]]
+  ['yolomodel_0',['YoloModel',['../classYoloModel.html#acf56b0f56bf5dd02cf67e2aa8ce7551a',1,'YoloModel']]]
 ];

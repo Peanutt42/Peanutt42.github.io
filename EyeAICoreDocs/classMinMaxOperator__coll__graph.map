@@ -1,4 +1,0 @@
-<map id="MinMaxOperator" name="MinMaxOperator">
-<area shape="rect" id="node1" title="rescales values from [min, max] to [0, 1]" alt="" coords="5,80,124,107"/>
-<area shape="rect" id="node2" href="$classOperator.html" title="Abstract base class for all input/output operators that modify a float array." alt="" coords="29,5,101,32"/>
-</map>

@@ -6,7 +6,7 @@ var classDepthModel =
     [ "~DepthModel", "classDepthModel.html#af0d7dbb36b7293d9826954f13b8f04d1", null ],
     [ "get_input_shape", "classDepthModel.html#af6e4e3633e5c88b057350ca6d7fed150", null ],
     [ "get_output_shape", "classDepthModel.html#a4f918a9a0f34ea8b4b15029040a629dc", null ],
-    [ "operator=", "classDepthModel.html#a14fcd7a096adf528e6793479749b58f0", null ],
-    [ "operator=", "classDepthModel.html#ac5e6f5e19c1fbd706ef4e6e42eb18cc5", null ],
+    [ "operator=", "classDepthModel.html#a0c1442940cdc66cff07642f304ecd1cb", null ],
+    [ "operator=", "classDepthModel.html#a4f1f4445fe3f41d9b067a40a0343bd01", null ],
     [ "run", "classDepthModel.html#aa7cbd29e2215413128e45141201ad52b", null ]
 ];

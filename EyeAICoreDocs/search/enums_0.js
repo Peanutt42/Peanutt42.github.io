@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['type_314',['Type',['../classTensorType.html#a28cdb92524fefb6751542139159771cc',1,'TensorType']]]
+  ['floattensorformat_0',['FloatTensorFormat',['../Operators_8hpp.html#aa0a7e33458d9b79c2e5f7025c6637342',1,'Operators.hpp']]]
 ];

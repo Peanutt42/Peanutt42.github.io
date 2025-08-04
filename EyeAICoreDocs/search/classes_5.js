@@ -1,5 +1,5 @@
 var searchData=
 [
-  ['minmaxoperator_162',['MinMaxOperator',['../classMinMaxOperator.html',1,'']]],
-  ['mutexguard_163',['MutexGuard',['../classMutexGuard.html',1,'']]]
+  ['midasimageoperator_0',['MiDaSImageOperator',['../classMiDaSImageOperator.html',1,'']]],
+  ['mutexguard_1',['MutexGuard',['../classMutexGuard.html',1,'']]]
 ];

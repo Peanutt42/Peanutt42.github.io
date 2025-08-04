@@ -1,6 +1,5 @@
 var searchData=
 [
-  ['name_291',['name',['../structProfileScopeRecord.html#a5f7ef82c7d5dff514e787d75d53da749',1,'ProfileScopeRecord']]],
-  ['num_5fchannel_292',['num_channel',['../classYoloModel.html#aeff1aa10fbfc1d57418b442605cccc17',1,'YoloModel']]],
-  ['num_5felements_293',['num_elements',['../classYoloModel.html#aefea6c12d68ebb06b85e45b120d450fe',1,'YoloModel']]]
+  ['operator_5foutput_0',['operator_output',['../structUnexpectedOperatorOutputFormat.html#a0d75d446a8c04dbe3bc2ec29d73e48d3',1,'UnexpectedOperatorOutputFormat']]],
+  ['output_1',['OUTPUT',['../classOperator.html#aa18dbb32bbb29062d76ef587a068cdda',1,'Operator']]]
 ];

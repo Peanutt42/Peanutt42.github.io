@@ -1,6 +1,9 @@
 <map id="include/EyeAICore/utils/DepthColormap.hpp" name="include/EyeAICore/utils/DepthColormap.hpp">
-<area shape="rect" id="node1" title=" " alt="" coords="42,5,201,47"/>
-<area shape="rect" id="node2" title=" " alt="" coords="5,95,72,121"/>
-<area shape="rect" id="node3" title=" " alt="" coords="96,95,147,121"/>
-<area shape="rect" id="node4" title=" " alt="" coords="171,95,226,121"/>
+<area shape="rect" id="Node000001" title=" " alt="" coords="41,5,199,48"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="5,96,72,123"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="101,51,64,87,60,83,97,47"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="95,96,144,123"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="122,49,122,80,117,80,117,49"/>
+<area shape="rect" id="Node000004" title=" " alt="" coords="169,96,222,123"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="141,47,176,83,172,86,137,50"/>
 </map>

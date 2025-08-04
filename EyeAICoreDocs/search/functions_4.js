@@ -1,5 +1,8 @@
 var searchData=
 [
-  ['end_5fscope_219',['end_scope',['../classProfilingFrame.html#a83b01bb78e52e7cb5da8a9ac9728f005',1,'ProfilingFrame']]],
-  ['execute_220',['execute',['../classOperator.html#a45ece6c6270ea8fa120fd71fa863e46c',1,'Operator::execute()'],['../classMinMaxOperator.html#a91b1572e8546bf54c92d0a0f54766a2a',1,'MinMaxOperator::execute()'],['../classRgbNormalizeOperator.html#a23539f4dcb8a054d1574a302a0196b71',1,'RgbNormalizeOperator::execute()'],['../classRgbNormalizeOperatorYolo.html#a2e0912e4fb35b89f62cd756e31b8f8b2',1,'RgbNormalizeOperatorYolo::execute()']]]
+  ['finish_0',['finish',['../classProfilingFrame.html#a87fd36bc8cc2b82c26d03e1b7a64686c',1,'ProfilingFrame']]],
+  ['format_5ffloat_5ftensor_5fformat_1',['format_float_tensor_format',['../Operators_8hpp.html#a9a62832ca56fd2f3129bac2434cab9a5',1,'format_float_tensor_format(FloatTensorFormat format):&#160;Operators.cpp'],['../Operators_8cpp.html#a9a62832ca56fd2f3129bac2434cab9a5',1,'format_float_tensor_format(FloatTensorFormat format):&#160;Operators.cpp']]],
+  ['format_5ftflite_5fstatus_2',['format_tflite_status',['../TfLiteUtils_8hpp.html#afb2851d17cf7bd489ca993e24487c4fd',1,'format_tflite_status(TfLiteStatus status):&#160;TfLiteUtils.cpp'],['../TfLiteUtils_8cpp.html#afb2851d17cf7bd489ca993e24487c4fd',1,'format_tflite_status(TfLiteStatus status):&#160;TfLiteUtils.cpp']]],
+  ['format_5ftflite_5ftype_3',['format_tflite_type',['../TfLiteUtils_8hpp.html#acbfc9d639c2cd6e23947533e481a17b2',1,'format_tflite_type(TfLiteType type):&#160;TfLiteUtils.cpp'],['../TfLiteUtils_8cpp.html#acbfc9d639c2cd6e23947533e481a17b2',1,'format_tflite_type(TfLiteType type):&#160;TfLiteUtils.cpp']]],
+  ['formatted_4',['formatted',['../structProfileScopeRecord.html#a48643e5a9d35cb9931cf42c0dbac8cc8',1,'ProfileScopeRecord']]]
 ];

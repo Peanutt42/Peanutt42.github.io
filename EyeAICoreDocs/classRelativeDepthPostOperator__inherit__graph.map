@@ -1,0 +1,7 @@
+<map id="RelativeDepthPostOperator" name="RelativeDepthPostOperator">
+<area shape="rect" id="Node000001" title="rescales values from [min, max] to [0, 1]" alt="" coords="418,21,599,48"/>
+<area shape="rect" id="Node000002" href="$classOperator.html" title=" " alt="" coords="155,5,370,64"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="386,32,418,32,418,37,386,37"/>
+<area shape="rect" id="Node000003" href="$classOperatorBase.html" title=" " alt="" coords="5,21,107,48"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="122,32,154,32,154,37,122,37"/>
+</map>

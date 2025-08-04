@@ -1,7 +1,8 @@
 var structYoloModel_1_1BoundingBox =
 [
+    [ "operator==", "structYoloModel_1_1BoundingBox.html#a365f6bba62bb9f3ef1ee750294bf1673", null ],
     [ "cls", "structYoloModel_1_1BoundingBox.html#a8814693177b8a67f86ac37f663930ced", null ],
-    [ "clsName", "structYoloModel_1_1BoundingBox.html#afb8be5b22bb16f2d559e7b05fb921aa0", null ],
+    [ "cls_name", "structYoloModel_1_1BoundingBox.html#ad61eda5a36339e99f13fe9096b7fba10", null ],
     [ "cnf", "structYoloModel_1_1BoundingBox.html#af193a7cee1de2d2de5412564e3cd2812", null ],
     [ "cx", "structYoloModel_1_1BoundingBox.html#a4e91b4555a393e3b7ab33d2b73aa8750", null ],
     [ "cy", "structYoloModel_1_1BoundingBox.html#a268733fd761be64edc6df68cdebf3f39", null ],

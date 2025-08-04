@@ -39,8 +39,8 @@ var NAVTREE =
 var NAVTREEINDEX =
 [
 "DepthColormap_8cpp.html",
-"structTfLiteInvokeInterpreterError.html#ab45df1e266d23a2661d5dd6a7c6992b3"
+"structMutexGuard_1_1ScopedAccess.html#aa82ee94aeb083ad747ccd15ac27ab159"
 ];
 
-var SYNCONMSG = 'click to disable panel synchronisation';
-var SYNCOFFMSG = 'click to enable panel synchronisation';
+var SYNCONMSG = 'click to disable panel synchronization';
+var SYNCOFFMSG = 'click to enable panel synchronization';

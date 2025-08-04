@@ -1,6 +1,7 @@
 var searchData=
 [
-  ['profilescope_247',['ProfileScope',['../structProfileScope.html#afdc994c222663f6c61c4a884bb1d83b0',1,'ProfileScope::ProfileScope(std::string_view name, ProfilingFrame &amp;frame)'],['../structProfileScope.html#ada76cd0b5e155da2558be6426a86f081',1,'ProfileScope::ProfileScope(const ProfileScope &amp;)=delete'],['../structProfileScope.html#a63ef3eaa657ece74022cdd49e4a110d5',1,'ProfileScope::ProfileScope(ProfileScope &amp;&amp;)=delete']]],
-  ['profilescoperecord_248',['ProfileScopeRecord',['../structProfileScopeRecord.html#a32c36183c596df1aab377521725b9cc7',1,'ProfileScopeRecord::ProfileScopeRecord()=default'],['../structProfileScopeRecord.html#a47db9be805b21a39d3790f6a391778e2',1,'ProfileScopeRecord::ProfileScopeRecord(std::string_view name, int scope_depth, profile_clock::time_point start, profile_clock::duration duration)']]],
-  ['profilingframe_249',['ProfilingFrame',['../classProfilingFrame.html#a9e264966cff5f548f7094c6a8cccedef',1,'ProfilingFrame']]]
+  ['read_5ffloats_5ffrom_5foutput_5ftensor_0',['read_floats_from_output_tensor',['../TfLiteUtils_8hpp.html#ab0ac5d13c6c5605745162acc3a6824f6',1,'read_floats_from_output_tensor(const TfLiteTensor *output_tensor, std::span&lt; float &gt; output, ProfilingFrame &amp;profiling_frame):&#160;TfLiteUtils.cpp'],['../TfLiteUtils_8cpp.html#ab0ac5d13c6c5605745162acc3a6824f6',1,'read_floats_from_output_tensor(const TfLiteTensor *output_tensor, std::span&lt; float &gt; output, ProfilingFrame &amp;profiling_frame):&#160;TfLiteUtils.cpp']]],
+  ['red_5fchannel_5ffrom_5fargb_5fcolor_1',['red_channel_from_argb_color',['../ImageUtils_8hpp.html#aae95c1f7c9e01e2d996bdc41f45d2525',1,'ImageUtils.hpp']]],
+  ['run_2',['run',['../classDepthModel.html#aa7cbd29e2215413128e45141201ad52b',1,'DepthModel::run()'],['../classYoloModel.html#aea56b6c6444b7751d279927253358ff3',1,'YoloModel::run()']]],
+  ['run_5finference_3',['run_inference',['../classTfLiteRuntime.html#ad007b379a0086aac496e2f3016a7a906',1,'TfLiteRuntime']]]
 ];

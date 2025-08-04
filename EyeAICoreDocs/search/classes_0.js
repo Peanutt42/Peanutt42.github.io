@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['asymmetricquantizationerror_154',['AsymmetricQuantizationError',['../structAsymmetricQuantizationError.html',1,'']]]
+  ['asymmetricquantizationerror_0',['AsymmetricQuantizationError',['../structAsymmetricQuantizationError.html',1,'']]]
 ];

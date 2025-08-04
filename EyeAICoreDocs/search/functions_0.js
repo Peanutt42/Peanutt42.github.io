@@ -1,5 +1,5 @@
 var searchData=
 [
-  ['add_5finput_5foperator_206',['add_input_operator',['../classTfLiteRuntimeBuilder.html#adb63e5eb637bd9027d8b7948c79f4084',1,'TfLiteRuntimeBuilder']]],
-  ['add_5foutput_5foperator_207',['add_output_operator',['../classTfLiteRuntimeBuilder.html#ac764156715b3e71ddc9ffb7660e334a6',1,'TfLiteRuntimeBuilder']]]
+  ['best_5fbox_0',['best_box',['../classYoloModel.html#a86466eed72abd3ca3d25470fa7450b19',1,'YoloModel']]],
+  ['blue_5fchannel_5ffrom_5fargb_5fcolor_1',['blue_channel_from_argb_color',['../ImageUtils_8hpp.html#ae07d98186a26b03954c528d78852be64',1,'ImageUtils.hpp']]]
 ];

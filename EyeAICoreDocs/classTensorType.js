@@ -6,6 +6,7 @@ var classTensorType =
     ] ],
     [ "TensorType", "classTensorType.html#a49f4105820bdacf72ad2338d58858e51", null ],
     [ "TensorType", "classTensorType.html#acb27521eb64f78ccf139c99c1eb1ad66", null ],
+    [ "operator==", "classTensorType.html#aaf4af66155066606b20b25e4c8d3f65c", null ],
     [ "to_string", "classTensorType.html#ab38d707a01d125320e0a50b51047ee38", null ],
     [ "type", "classTensorType.html#a9ff1927fc9804ac785a2748fc02e7af8", null ]
 ];

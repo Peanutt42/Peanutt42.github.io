@@ -1,7 +1,11 @@
 <map id="include/EyeAICore/utils/Errors.hpp" name="include/EyeAICore/utils/Errors.hpp">
-<area shape="rect" id="node1" title=" " alt="" coords="90,5,249,47"/>
-<area shape="rect" id="node2" title=" " alt="" coords="5,95,64,121"/>
-<area shape="rect" id="node3" title=" " alt="" coords="89,95,143,121"/>
-<area shape="rect" id="node4" title=" " alt="" coords="167,95,278,121"/>
-<area shape="rect" id="node5" title=" " alt="" coords="303,95,364,121"/>
+<area shape="rect" id="Node000001" title=" " alt="" coords="87,5,246,48"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="5,96,64,123"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="134,51,69,90,67,85,131,46"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="88,96,141,123"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="155,50,133,84,129,81,151,47"/>
+<area shape="rect" id="Node000004" title=" " alt="" coords="165,96,275,123"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="182,47,205,81,201,84,178,50"/>
+<area shape="rect" id="Node000005" title=" " alt="" coords="299,96,359,123"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="210,46,291,86,289,91,207,51"/>
 </map>

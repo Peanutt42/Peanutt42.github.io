@@ -4,9 +4,9 @@ var structMutexGuard_1_1ScopedAccess =
     [ "~ScopedAccess", "structMutexGuard_1_1ScopedAccess.html#a89ac5d7db391541958763c3a06489dcc", null ],
     [ "ScopedAccess", "structMutexGuard_1_1ScopedAccess.html#a9da1b007dd324a3319b0f4450e5047e2", null ],
     [ "ScopedAccess", "structMutexGuard_1_1ScopedAccess.html#a45f0a254763ea5a2f21af4dd6749ab8f", null ],
-    [ "operator*", "structMutexGuard_1_1ScopedAccess.html#aa459b929a6c38a82bdea28b28c8b710b", null ],
-    [ "operator->", "structMutexGuard_1_1ScopedAccess.html#adf74a303239ae62c9b73826582f4aa5a", null ],
-    [ "operator=", "structMutexGuard_1_1ScopedAccess.html#a7be59a058e6b3374a5b9f96ae8c86e31", null ],
-    [ "operator=", "structMutexGuard_1_1ScopedAccess.html#a8f2ad7936e18dcb0ac84336ba7569228", null ],
-    [ "operator[]", "structMutexGuard_1_1ScopedAccess.html#a83532141ea317babfa02d3efd9aff273", null ]
+    [ "operator*", "structMutexGuard_1_1ScopedAccess.html#a314d8e020729b0e9391c4dc2bef5a19c", null ],
+    [ "operator->", "structMutexGuard_1_1ScopedAccess.html#a659d5a284996c8a41ab163f930f84093", null ],
+    [ "operator=", "structMutexGuard_1_1ScopedAccess.html#a8d2cbdbb95715e596791dcf4602d03ac", null ],
+    [ "operator=", "structMutexGuard_1_1ScopedAccess.html#ad214752fd3d934226b6fea35cb32480e", null ],
+    [ "operator[]", "structMutexGuard_1_1ScopedAccess.html#a0dbded754e17bab210c3731184c10164", null ]
 ];

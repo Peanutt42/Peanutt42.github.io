@@ -1,4 +1,5 @@
 var searchData=
 [
-  ['result_311',['Result',['../classTfLiteRuntimeBuilder.html#a60bb7b530e2dd5fba12a0973f9f58216',1,'TfLiteRuntimeBuilder']]]
+  ['tflitelogerrorcallback_0',['TfLiteLogErrorCallback',['../TfLiteRuntime_8hpp.html#ae10cf5db164646559fbb4d9236808f87',1,'TfLiteRuntime.hpp']]],
+  ['tflitelogwarningcallback_1',['TfLiteLogWarningCallback',['../TfLiteRuntime_8hpp.html#a0f81401a8cd180af6f4eae3afd0858fd',1,'TfLiteRuntime.hpp']]]
 ];

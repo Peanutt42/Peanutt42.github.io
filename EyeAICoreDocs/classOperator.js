@@ -1,10 +1,11 @@
 var classOperator =
 [
-    [ "Operator", "classOperator.html#af67c47da0400f8e35a6868adcd7639c2", null ],
-    [ "Operator", "classOperator.html#a2a582551cc2fa83ea0af47ea887b2cfd", null ],
-    [ "Operator", "classOperator.html#a1ab9a174e60f7d48e16fc2a3df666307", null ],
-    [ "~Operator", "classOperator.html#ac7cb92992e32c213091d3659ef596a46", null ],
-    [ "execute", "classOperator.html#a45ece6c6270ea8fa120fd71fa863e46c", null ],
-    [ "operator=", "classOperator.html#ad28c7310f383b898b80ade50f69540a2", null ],
-    [ "operator=", "classOperator.html#ab6272ae8852d9c66fe02b7dc2bbb78ca", null ]
+    [ "Operator", "classOperator.html#ad533bb18d7ecf35ac4180cce32ff9fb5", null ],
+    [ "Operator", "classOperator.html#aa786119b5ca4c0fb1732edb1c5efffda", null ],
+    [ "Operator", "classOperator.html#a04430eb24a169c79773a9e9f3f2a9d0a", null ],
+    [ "~Operator", "classOperator.html#a06e64a0b66cb3847a48d925fb5420d14", null ],
+    [ "get_input_format", "classOperator.html#a38b8ce27d500513df122cc0e2e53a68a", null ],
+    [ "get_output_format", "classOperator.html#aca728b8dbc611bc4a33682045b3c1f82", null ],
+    [ "operator=", "classOperator.html#abdb5734d7a3ee7a2e46dcf1144188531", null ],
+    [ "operator=", "classOperator.html#ae01e86163c23c1bddb662e9c5e00320f", null ]
 ];

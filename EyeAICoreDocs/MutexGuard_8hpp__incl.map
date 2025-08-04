@@ -1,5 +1,7 @@
 <map id="include/EyeAICore/utils/MutexGuard.hpp" name="include/EyeAICore/utils/MutexGuard.hpp">
-<area shape="rect" id="node1" title=" " alt="" coords="5,5,164,47"/>
-<area shape="rect" id="node2" title=" " alt="" coords="15,95,74,121"/>
-<area shape="rect" id="node3" title=" " alt="" coords="98,95,151,121"/>
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,5,164,48"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="17,96,74,123"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="77,50,61,83,56,80,72,47"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="98,96,151,123"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="97,47,114,81,109,83,92,50"/>
 </map>
