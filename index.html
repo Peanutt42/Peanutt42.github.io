@@ -1,145 +1,165 @@
 <!doctype html>
 <html lang="en">
-	<head>
-		<meta charset="UTF-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-		<title>Peanutt42 Portfolio</title>
-		<link rel="stylesheet" href="./style.css" />
-		<link rel="icon" href="./favicon.ico" type="image/x-icon" />
-		<link
-			rel="preload"
-			as="image"
-			href="./ProjectTracker - Screenshot.webp"
-		/>
-		<link rel="preload" as="image" href="./ProjectTracker - Icon.svg" />
-		<link rel="preload" as="image" href="./RayTracer - Screenshot.webp" />
-		<link rel="preload" as="image" href="./RayTracer - Wallpaper.webp" />
-	</head>
-	<body
-		style="width: 100%; height: 100%; background-color: #111111; margin: 0"
-	>
-		<main>
-			<a
-				href="https://www.github.com/Peanutt42"
-				target="_blank"
-				class="profile"
-			>
-				<img src="favicon.ico" width="50rem" class="profile-pic" />
-				Peanutt42
-			</a>
-			<ul class="projects">
-				<div class="project">
-					<h2 class="project-name">Eye AI</h2>
-					<h2 class="project-description">
-						BWKI ("National competition for artificial intelligence in Germany") <br>
-						<div style="display: flex; justify-content: center; gap: 10px;">
-							See <a href="https://www.bw-ki.de">https://www.bw-ki.de</a> <br>
-						</div>
-						<br>
-						An Android project with 3 other classmates: <br>
-						Computer Vision app for blind and visually impaired individuals, <br>
-						that communicates with spatial audio.
-					</h2>
-					<img src="eye-ai-logo-export.webp" width="100rem" />
-					<img
-						src="EyeAIDemo.webp"
-						class="rounded-image"
-						width="500px"
-					/>
-					<a
-						href="https://github.com/SimplyExo/eye-ai"
-						class="link_button"
-						style="
-							text-align: center;
-							display: flex;
-							flex-direction: row;
-							justify-content: center;
-							gap: 1rem;
-						"
-					>
-						<img
-							src="github-mark-white.svg"
-							width="20px"
-							height="20px"
-						/>
-						<div style="padding: 0">View Source on GitHub</div>
-					</a>
-				</div>
-				<div class="project">
-					<h2 class="project-name">Ardemu</h2>
-					<h2 class="project-description">Toy AVR CPU emulator</h2>
-					<img src="Ardemu - Icon.svg" width="100rem" />
-					<div
-						style="
-							display: flex;
-							justify-content: center;
-							gap: 1rem;
-							text-align: center;
-						"
-					>
-						<a
-							href="https://www.github.com/Peanutt42/ardemu"
-							class="link_button"
-							style="
-								text-align: center;
-								display: flex;
-								flex-direction: row;
-								justify-content: center;
-								gap: 1rem;
-							"
-						>
-							<img
-								src="github-mark-white.svg"
-								width="20px"
-								height="20px"
-							/>
-							<div style="padding: 0">View Source</div>
-						</a>
-						<a href="/ardemu_web/" class="link_button"
-							>Run in browser</a
-						>
-					</div>
-					<img
-						src="Ardemu - Screenshot.webp"
-						class="rounded-image"
-						width="500px"
-					/>
-				</div>
-				<a
-					href="https://www.github.com/Peanutt42/project_tracker"
-					class="project"
-				>
-					<h2 class="project-name">Project Tracker</h2>
-					<h2 class="project-description">
-						Personal programming organizer and tracker
-					</h2>
-					<img src="ProjectTracker - Icon.svg" width="100rem" />
-					<img
-						src="ProjectTracker - Screenshot.webp"
-						class="rounded-image"
-						width="500px"
-					/>
-				</a>
-				<a
-					href="https://www.github.com/Peanutt42/raytracer"
-					class="project"
-				>
-					<h2 class="project-name">Raytracer</h2>
-					<h2 class="project-description">
-						CPU and GPU implementation
-					</h2>
-					<img
-						src="RayTracer - Screenshot.webp"
-						class="rounded-image"
-						width="500px"
-					/>
-					<img
-						src="RayTracer - Wallpaper.webp"
-						class="rounded-image"
-						width="500px"
-					/>
-				</a>
-			</ul>
-		</main>
-	</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Peanutt42</title>
+    <link rel="stylesheet" href="./style.css" />
+    <link rel="icon" href="./favicon.ico" type="image/x-icon" />
+  </head>
+  <body>
+    <div class="bg-wrap">
+      <div class="bg-col bg-col-left" aria-hidden="true">
+        segfaultcoredumped
+      </div>
+      <div class="bg-col bg-col-right" aria-hidden="true">
+        illegalinstruction
+      </div>
+    </div>
+    <div class="container">
+      <header>
+        <a
+          href="https://www.github.com/Peanutt42"
+          target="_blank"
+          class="profile"
+        >
+          <img src="favicon.ico" alt="Peanutt42" class="profile-pic" />
+          <div>
+            <!-- https://patorjk.com/software/taag/#p=display&f=ANSI+Shadow&t=Peanutt42 -->
+            <pre class="project-name" aria-hidden="true">
+██████╗ ███████╗ █████╗ ███╗   ██╗██╗   ██╗████████╗████████╗██╗  ██╗██████╗ 
+██╔══██╗██╔════╝██╔══██╗████╗  ██║██║   ██║╚══██╔══╝╚══██╔══╝██║  ██║╚════██╗
+██████╔╝█████╗  ███████║██╔██╗ ██║██║   ██║   ██║      ██║   ███████║ █████╔╝
+██╔═══╝ ██╔══╝  ██╔══██║██║╚██╗██║██║   ██║   ██║      ██║   ╚════██║██╔═══╝ 
+██║     ███████╗██║  ██║██║ ╚████║╚██████╔╝   ██║      ██║        ██║███████╗
+╚═╝     ╚══════╝╚═╝  ╚═╝╚═╝  ╚═══╝ ╚═════╝    ╚═╝      ╚═╝        ╚═╝╚══════╝</pre
+            >
+          </div>
+        </a>
+      </header>
+
+      <section class="projects">
+        <div class="project">
+          <div class="project-header">
+            <div>
+              <!-- https://patorjk.com/software/taag/#p=display&f=Nancyj&t=Eye+AI -->
+              <pre class="project-name" aria-hidden="true">
+ 88888888b                       .d888888  dP 
+ 88                             d8'    88  88 
+a88aaaa    dP    dP .d8888b.    88aaaaa88a 88 
+ 88        88    88 88ooood8    88     88  88 
+ 88        88.  .88 88.  ...    88     88  88 
+ 88888888P `8888P88 `88888P'    88     88  dP 
+                .88                           
+            d8888P                            </pre
+              >
+              <p class="project-description">
+                Computer vision app for blind and visually impaired individuals,
+                communicating via spatial audio. Built for
+                <a href="https://www.bw-ki.de" target="_blank">BWKI</a>
+                competition with 3 classmates.
+              </p>
+            </div>
+            <img
+              src="eye-ai-logo-export.webp"
+              alt="Eye AI"
+              class="project-icon"
+            />
+          </div>
+          <img
+            src="EyeAIDemo.webp"
+            alt="Eye AI demo"
+            class="project-screenshot"
+          />
+          <div class="project-actions">
+            <a
+              href="https://github.com/SimplyExo/eye-ai"
+              target="_blank"
+              class="link-button"
+            >
+              <img src="github-mark-white.svg" width="16" height="16" alt="" />
+              Source
+            </a>
+          </div>
+        </div>
+
+        <div class="project">
+          <div class="project-header">
+            <div>
+              <!-- https://patorjk.com/software/taag/#p=display&f=Nancyj&t=Ardemu -->
+              <pre class="project-name" aria-hidden="true">
+ .d888888                 dP                              
+d8'    88                 88                              
+88aaaaa88a 88d888b. .d888b88 .d8888b. 88d8b.d8b. dP    dP 
+88     88  88'  `88 88'  `88 88ooood8 88'`88'`88 88    88 
+88     88  88       88.  .88 88.  ... 88  88  88 88.  .88 
+88     88  dP       `88888P8 `88888P' dP  dP  dP `88888P'</pre
+              >
+              <p class="project-description">
+                Toy AVR CPU emulator written in Rust, compiled to WebAssembly.
+              </p>
+            </div>
+            <img src="Ardemu - Icon.svg" alt="Ardemu" class="project-icon" />
+          </div>
+          <img
+            src="Ardemu - Screenshot.webp"
+            alt="Ardemu screenshot"
+            class="project-screenshot"
+          />
+          <div class="project-actions">
+            <a
+              href="https://www.github.com/Peanutt42/ardemu"
+              target="_blank"
+              class="link-button"
+            >
+              <img src="github-mark-white.svg" width="16" height="16" alt="" />
+              Source
+            </a>
+            <a href="/ardemu_web/" class="link-button secondary">
+              Run in browser
+            </a>
+          </div>
+        </div>
+
+        <div class="project">
+          <div class="project-header">
+            <div>
+              <!-- https://patorjk.com/software/taag/#p=display&f=Nancyj&t=Raytracer -->
+              <pre class="project-name" aria-hidden="true">
+ 888888ba                      dP                                                
+ 88    `8b                     88                                                
+a88aaaa8P' .d8888b. dP    dP d8888P 88d888b. .d8888b. .d8888b. .d8888b. 88d888b. 
+ 88   `8b. 88'  `88 88    88   88   88'  `88 88'  `88 88'  `"" 88ooood8 88'  `88 
+ 88     88 88.  .88 88.  .88   88   88       88.  .88 88.  ... 88.  ... 88       
+ dP     dP `88888P8 `8888P88   dP   dP       `88888P8 `88888P' `88888P' dP       
+                         .88                                                     
+                     d8888P                                                      </pre
+              >
+              <p class="project-description">CPU and GPU implementation.</p>
+            </div>
+          </div>
+          <img
+            src="RayTracer - Screenshot.webp"
+            alt="Raytracer screenshot"
+            class="project-screenshot"
+          />
+          <img
+            src="RayTracer - Wallpaper.webp"
+            alt="Raytracer wallpaper"
+            class="project-screenshot"
+          />
+          <div class="project-actions">
+            <a
+              href="https://www.github.com/Peanutt42/raytracer"
+              target="_blank"
+              class="link-button"
+            >
+              <img src="github-mark-white.svg" width="16" height="16" alt="" />
+              Source
+            </a>
+          </div>
+        </div>
+      </section>
+    </div>
+  </body>
 </html>
