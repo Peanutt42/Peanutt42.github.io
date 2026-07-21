@@ -10,23 +10,21 @@
   <body>
     <div class="bg-wrap">
       <div class="bg-col bg-col-left" aria-hidden="true">
-        segfaultcoredumped
+        <span class="bg-col-red">segfault(coredumped)</span>
+        <span class="bg-col-blue">stackoverflow</span>
       </div>
       <div class="bg-col bg-col-right" aria-hidden="true">
-        illegalinstruction
+        <span class="bg-col-pink">illegalinstruction</span>
+        <span class="bg-col-green">outofmemory</span>
       </div>
     </div>
     <div class="container">
       <header>
-        <a
-          href="https://www.github.com/Peanutt42"
-          target="_blank"
-          class="profile"
-        >
+        <div class="profile">
           <img src="favicon.ico" alt="Peanutt42" class="profile-pic" />
           <div>
             <!-- https://patorjk.com/software/taag/#p=display&f=ANSI+Shadow&t=Peanutt42 -->
-            <pre class="project-name" aria-hidden="true">
+            <pre class="profile-name" aria-hidden="true">
 ██████╗ ███████╗ █████╗ ███╗   ██╗██╗   ██╗████████╗████████╗██╗  ██╗██████╗ 
 ██╔══██╗██╔════╝██╔══██╗████╗  ██║██║   ██║╚══██╔══╝╚══██╔══╝██║  ██║╚════██╗
 ██████╔╝█████╗  ███████║██╔██╗ ██║██║   ██║   ██║      ██║   ███████║ █████╔╝
@@ -35,7 +33,31 @@
 ╚═╝     ╚══════╝╚═╝  ╚═╝╚═╝  ╚═══╝ ╚═════╝    ╚═╝      ╚═╝        ╚═╝╚══════╝</pre
             >
           </div>
-        </a>
+          <a
+            href="https://www.github.com/Peanutt42"
+            target="_blank"
+            style="width: 24px; height: 24px"
+          >
+            <img
+              src="github.svg"
+              width="24px"
+              height="24px"
+              alt="Github Link"
+            />
+          </a>
+          <a
+            href="https://www.codeberg.com/Peanutt42"
+            target="_blank"
+            style="width: 24px; height: 24px"
+          >
+            <img
+              src="codeberg.svg"
+              width="24px"
+              height="24px"
+              alt="Codeberg Link"
+            />
+          </a>
+        </div>
       </header>
 
       <section class="projects">

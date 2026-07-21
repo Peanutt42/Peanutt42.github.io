@@ -55,13 +55,16 @@ body {
 
 .bg-col {
   position: absolute;
+  display: flex;
+  gap: 8px;
   top: 0;
   bottom: 0;
   writing-mode: vertical-rl;
   font-family: "KogniGear", monospace;
-  font-size: 160px;
+  font-size: 120px;
+  letter-spacing: -10px;
   color: transparent;
-  -webkit-text-stroke-width: 12px;
+  -webkit-text-stroke-width: 10px;
   paint-order: stroke fill;
   white-space: nowrap;
   pointer-events: none;
@@ -71,20 +74,21 @@ body {
 
 .bg-col-left {
   left: 0;
-  -webkit-text-stroke-color: #ff7b72;
-  opacity: 0.2;
 }
-
 .bg-col-right {
   right: 0;
-  -webkit-text-stroke-color: #79c0ff;
-  opacity: 0.17;
-  padding-top: 300px;
 }
-@media (max-width: 480px) {
-  .bg-col-right {
-    padding-top: 100px;
-  }
+.bg-col-red {
+  -webkit-text-stroke-color: #2a1615;
+}
+.bg-col-blue {
+  -webkit-text-stroke-color: #111920;
+}
+.bg-col-green {
+  -webkit-text-stroke-color: #031604;
+}
+.bg-col-pink {
+  -webkit-text-stroke-color: #150a21;
 }
 
 .container {
@@ -102,17 +106,6 @@ header {
   align-items: center;
   gap: 0.75rem;
   text-decoration: none;
-  color: inherit;
-  padding: 0.5rem 0.625rem;
-  border-radius: 1rem;
-  background-color: rgba(13, 13, 13, 0.3);
-  backdrop-filter: blur(3px);
-  -webkit-backdrop-filter: blur(3px);
-  transition: background-color 0.15s ease;
-}
-
-.profile:hover {
-  background-color: rgba(22, 22, 26, 0.7);
 }
 
 .profile-pic {
@@ -130,6 +123,12 @@ header {
   color: white;
 }
 
+@media (max-width: 480px) {
+  .profile-name {
+    font-size: 0.25rem;
+  }
+}
+
 .projects {
   display: flex;
   flex-direction: column;
@@ -138,9 +137,7 @@ header {
 
 .project {
   display: block;
-  background-color: rgba(13, 13, 13, 0.6);
-  backdrop-filter: blur(3px);
-  -webkit-backdrop-filter: blur(3px);
+  background-color: rgb(13, 13, 13);
   border-radius: 1rem;
   padding: 1.25rem;
   text-decoration: none;
