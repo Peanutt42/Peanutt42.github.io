@@ -63,6 +63,7 @@ body {
   font-family: "KogniGear", monospace;
   font-size: 120px;
   letter-spacing: -10px;
+  line-height: 1;
   color: transparent;
   -webkit-text-stroke-width: 10px;
   paint-order: stroke fill;
@@ -92,9 +93,14 @@ body {
 }
 
 .container {
-  max-width: 600px;
+  max-width: 1000px;
   margin: 0 auto;
   padding: 3rem 1.5rem 4rem;
+}
+@media (min-width: 650px) {
+  .container {
+    width: 75%;
+  }
 }
 
 header {
@@ -122,11 +128,21 @@ header {
   white-space: pre;
   color: white;
 }
-
 @media (max-width: 480px) {
   .profile-name {
     font-size: 0.25rem;
   }
+}
+@media (min-width: 480px) {
+  .profile-name {
+    padding-left: 16px;
+    padding-right: 16px;
+  }
+}
+
+.profile-header {
+  display: flex;
+  justify-content: center;
 }
 
 .projects {
@@ -160,6 +176,7 @@ a.project:hover {
   height: 48px;
   flex-shrink: 0;
   margin-top: 0.125rem;
+  margin-left: auto;
 }
 
 .project-name {
@@ -227,7 +244,7 @@ a.project:hover {
   color: var(--text);
 }
 
-@media (max-width: 480px) {
+@media (max-width: 650px) {
   .container {
     padding: 2rem 1rem 3rem;
   }
