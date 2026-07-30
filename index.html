@@ -1,54 +1,68 @@
 <!doctype html>
 <html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Peanutt42</title>
+		<link rel="stylesheet" href="./style.css" />
+		<link rel="icon" href="./favicon.ico" type="image/x-icon" />
+	</head>
 
-<head>
-	<meta charset="UTF-8" />
-	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-	<title>Peanutt42</title>
-	<link rel="stylesheet" href="./style.css" />
-	<link rel="icon" href="./favicon.ico" type="image/x-icon" />
-</head>
-
-<body>
-	<div class="bg-wrap">
-		<div class="bg-col bg-col-left" aria-hidden="true">
-			<span class="bg-col-red">segfault(coredumped)</span>
-			<span class="bg-col-blue">stackoverflow</span>
+	<body>
+		<div class="bg-wrap">
+			<div class="bg-col bg-col-left" aria-hidden="true">
+				<span class="bg-col-red">segfault(coredumped)</span>
+				<span class="bg-col-orange">stackoverflow</span>
+				<span class="bg-col-yellow">indexoutofbounds</span>
+			</div>
+			<div class="bg-col bg-col-right" aria-hidden="true">
+				<span class="bg-col-green">illegalinstruction</span>
+				<span class="bg-col-blue">outofmemory</span>
+				<span class="bg-col-violet">itworksonmymachine</span>
+			</div>
 		</div>
-		<div class="bg-col bg-col-right" aria-hidden="true">
-			<span class="bg-col-pink">illegalinstruction</span>
-			<span class="bg-col-green">outofmemory</span>
-		</div>
-	</div>
-	<div class="container">
-		<header class="profile-header">
-			<div class="profile">
-				<img src="favicon.ico" alt="Peanutt42" class="profile-pic" />
-				<div>
-					<!-- https://patorjk.com/software/taag/#p=display&f=ANSI+Shadow&t=Peanutt42 -->
-					<pre class="profile-name" aria-hidden="true">
+		<div class="container">
+			<header class="profile-header">
+				<div class="profile">
+					<img
+						src="favicon.ico"
+						alt="Peanutt42"
+						class="profile-pic"
+					/>
+					<div>
+						<!-- https://patorjk.com/software/taag/#p=display&f=ANSI+Shadow&t=Peanutt42 -->
+						<pre class="profile-name" aria-hidden="true">
 ██████╗ ███████╗ █████╗ ███╗   ██╗██╗   ██╗████████╗████████╗██╗  ██╗██████╗ 
 ██╔══██╗██╔════╝██╔══██╗████╗  ██║██║   ██║╚══██╔══╝╚══██╔══╝██║  ██║╚════██╗
 ██████╔╝█████╗  ███████║██╔██╗ ██║██║   ██║   ██║      ██║   ███████║ █████╔╝
 ██╔═══╝ ██╔══╝  ██╔══██║██║╚██╗██║██║   ██║   ██║      ██║   ╚════██║██╔═══╝ 
 ██║     ███████╗██║  ██║██║ ╚████║╚██████╔╝   ██║      ██║        ██║███████╗
-╚═╝     ╚══════╝╚═╝  ╚═╝╚═╝  ╚═══╝ ╚═════╝    ╚═╝      ╚═╝        ╚═╝╚══════╝</pre>
+╚═╝     ╚══════╝╚═╝  ╚═╝╚═╝  ╚═══╝ ╚═════╝    ╚═╝      ╚═╝        ╚═╝╚══════╝</pre
+						>
+					</div>
+					<a
+						href="https://github.com/Peanutt42"
+						target="_blank"
+						class="social-link"
+					>
+						<img src="github.svg" alt="Github Link" />
+					</a>
+					<a
+						href="https://codeberg.com/Peanutt42"
+						target="_blank"
+						class="social-link"
+					>
+						<img src="codeberg.svg" alt="Codeberg Link" />
+					</a>
 				</div>
-				<a href="https://www.github.com/Peanutt42" target="_blank" style="width: 24px; height: 24px">
-					<img src="github.svg" width="24px" height="24px" alt="Github Link" />
-				</a>
-				<a href="https://www.codeberg.com/Peanutt42" target="_blank" style="width: 24px; height: 24px">
-					<img src="codeberg.svg" width="24px" height="24px" alt="Codeberg Link" />
-				</a>
-			</div>
-		</header>
+			</header>
 
-		<section class="projects">
-			<div class="project">
-				<div class="project-header">
-					<div>
-						<!-- https://patorjk.com/software/taag/#p=display&f=Nancyj&t=Eye+AI -->
-						<pre class="project-name" aria-hidden="true">
+			<section class="projects">
+				<div class="project">
+					<div class="project-header">
+						<div>
+							<!-- https://patorjk.com/software/taag/#p=display&f=Nancyj&t=Eye+AI -->
+							<pre class="project-name" aria-hidden="true">
  88888888b                       .d888888  dP 
  88                             d8'    88  88 
 a88aaaa    dP    dP .d8888b.    88aaaaa88a 88 
@@ -56,59 +70,99 @@ a88aaaa    dP    dP .d8888b.    88aaaaa88a 88
  88        88.  .88 88.  ...    88     88  88 
  88888888P `8888P88 `88888P'    88     88  dP 
                 .88                           
-            d8888P</pre>
-						<p class="project-description">
-							Computer vision app for blind and visually impaired individuals,
-							communicating via spatial audio. Built for
-							<a href="https://www.bw-ki.de" target="_blank">BWKI</a>
-							competition with 3 classmates.
-						</p>
+            d8888P</pre
+							>
+							<p class="project-description">
+								Computer vision app for blind and visually
+								impaired individuals, communicating via spatial
+								audio. Built for
+								<a href="https://www.bw-ki.de" target="_blank"
+									>BWKI</a
+								>
+								competition with 3 classmates.
+							</p>
+						</div>
+						<img
+							src="eye-ai-logo-export.webp"
+							alt="Eye AI"
+							class="project-icon"
+						/>
 					</div>
-					<img src="eye-ai-logo-export.webp" alt="Eye AI" class="project-icon" />
+					<img
+						src="EyeAIDemo.webp"
+						alt="Eye AI demo"
+						class="screenshot"
+					/>
+					<div class="project-actions">
+						<a
+							href="https://github.com/SimplyExo/eye-ai"
+							target="_blank"
+							class="link-button"
+						>
+							<img
+								src="github-mark-white.svg"
+								width="16"
+								height="16"
+								alt=""
+							/>
+							Source
+						</a>
+					</div>
 				</div>
-				<img src="EyeAIDemo.webp" alt="Eye AI demo" class="screenshot" />
-				<div class="project-actions">
-					<a href="https://github.com/SimplyExo/eye-ai" target="_blank" class="link-button">
-						<img src="github-mark-white.svg" width="16" height="16" alt="" />
-						Source
-					</a>
-				</div>
-			</div>
 
-			<div class="project">
-				<div class="project-header">
-					<div>
-						<!-- https://patorjk.com/software/taag/#p=display&f=Nancyj&t=Ardemu -->
-						<pre class="project-name" aria-hidden="true">
+				<div class="project">
+					<div class="project-header">
+						<div>
+							<!-- https://patorjk.com/software/taag/#p=display&f=Nancyj&t=Ardemu -->
+							<pre class="project-name" aria-hidden="true">
  .d888888                 dP                              
 d8'    88                 88                              
 88aaaaa88a 88d888b. .d888b88 .d8888b. 88d8b.d8b. dP    dP 
 88     88  88'  `88 88'  `88 88ooood8 88'`88'`88 88    88 
 88     88  88       88.  .88 88.  ... 88  88  88 88.  .88 
-88     88  dP       `88888P8 `88888P' dP  dP  dP `88888P'</pre>
-						<p class="project-description">
-							Toy AVR CPU emulator written in Rust, compiled to WebAssembly.
-						</p>
+88     88  dP       `88888P8 `88888P' dP  dP  dP `88888P'</pre
+							>
+							<p class="project-description">
+								Toy AVR CPU emulator written in Rust, compiled
+								to WebAssembly.
+							</p>
+						</div>
+						<img
+							src="Ardemu - Icon.svg"
+							alt="Ardemu"
+							class="project-icon"
+						/>
 					</div>
-					<img src="Ardemu - Icon.svg" alt="Ardemu" class="project-icon" />
+					<img
+						src="Ardemu - Screenshot.webp"
+						alt="Ardemu screenshot"
+						class="screenshot"
+					/>
+					<div class="project-actions">
+						<a
+							href="https://www.github.com/Peanutt42/ardemu"
+							target="_blank"
+							class="link-button"
+						>
+							<img
+								src="github-mark-white.svg"
+								width="16"
+								height="16"
+								alt=""
+							/>
+							Source
+						</a>
+						<a href="/ardemu_web/" class="link-button secondary">
+							Run in browser
+						</a>
+					</div>
 				</div>
-				<img src="Ardemu - Screenshot.webp" alt="Ardemu screenshot" class="screenshot" />
-				<div class="project-actions">
-					<a href="https://www.github.com/Peanutt42/ardemu" target="_blank" class="link-button">
-						<img src="github-mark-white.svg" width="16" height="16" alt="" />
-						Source
-					</a>
-					<a href="/ardemu_web/" class="link-button secondary">
-						Run in browser
-					</a>
-				</div>
-			</div>
 
-			<div class="project">
-				<div class="project-header">
-					<div>
-						<!-- https://patorjk.com/software/taag/#p=display&f=Nancyj&t=Raytracer -->
-						<pre class="project-name" aria-hidden="true">
+				<div class="project">
+					<div class="project-header">
+						<div>
+							<!-- https://patorjk.com/software/taag/#p=display&f=Nancyj&t=Raytracer -->
+							<pre class="project-name" aria-hidden="true">
  888888ba                      dP                                                
  88    `8b                     88                                                
 a88aaaa8P' .d8888b. dP    dP d8888P 88d888b. .d8888b. .d8888b. .d8888b. 88d888b. 
@@ -116,29 +170,49 @@ a88aaaa8P' .d8888b. dP    dP d8888P 88d888b. .d8888b. .d8888b. .d8888b. 88d888b.
  88     88 88.  .88 88.  .88   88   88       88.  .88 88.  ... 88.  ... 88       
  dP     dP `88888P8 `8888P88   dP   dP       `88888P8 `88888P' `88888P' dP       
                          .88                                                     
-                     d8888P</pre>
-						<p class="project-description">CPU and GPU implementation.</p>
+                     d8888P</pre
+							>
+							<p class="project-description">
+								CPU and GPU implementation.
+							</p>
+						</div>
+					</div>
+					<img
+						src="RayTracer - Screenshot.webp"
+						alt="Raytracer screenshot"
+						class="screenshot"
+					/>
+					<img
+						src="RayTracer - Wallpaper.webp"
+						alt="Raytracer wallpaper"
+						class="screenshot"
+					/>
+					<div class="project-actions">
+						<a
+							href="https://www.github.com/Peanutt42/raytracer"
+							target="_blank"
+							class="link-button"
+						>
+							<img
+								src="github-mark-white.svg"
+								width="16"
+								height="16"
+								alt=""
+							/>
+							Source
+						</a>
 					</div>
 				</div>
-				<img src="RayTracer - Screenshot.webp" alt="Raytracer screenshot" class="screenshot" />
-				<img src="RayTracer - Wallpaper.webp" alt="Raytracer wallpaper" class="screenshot" />
-				<div class="project-actions">
-					<a href="https://www.github.com/Peanutt42/raytracer" target="_blank" class="link-button">
-						<img src="github-mark-white.svg" width="16" height="16" alt="" />
-						Source
-					</a>
-				</div>
-			</div>
-		</section>
+			</section>
 
-		<section style="padding-top: 10rem; padding-bottom: 2.5rem;">
-			<p style="text-align: center;">
-				This website has been brought to you by this Raspberrypi 4b (4 GB RAM)
-			</p>
+			<section class="site-footer">
+				<p class="footer-text">
+					This website has been brought to you by this Raspberrypi 4b
+					(4&nbsp;GB&nbsp;RAM)
+				</p>
 
-			<img src="raspberrypi4b.webp" class="screenshot" />
-		</section>
-	</div>
-</body>
-
+				<img src="raspberrypi4b.webp" class="screenshot" />
+			</section>
+		</div>
+	</body>
 </html>
